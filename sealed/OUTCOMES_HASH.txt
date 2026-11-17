@@ -1,0 +1,8 @@
+MMC-01 sealed ground truth
+sealed_utc: 2026-11-17T23:23:20Z
+outcomes.json sha256: 16a1bf84d9369805e773bf2cc0dc624db0816865fc906c9d451826d2cf53fb50
+CODING_RULES.md sha256: 16dda325b06c14c316c249bd485c065c00f8fdde3f5d9ee4ace7a0bd2edfe1d6
+
+This file is committed at the same time as outcomes.json.
+outcomes.json must not be read by any analysis code until
+results/COMMITMENT.txt exists and verifies (protocol 2.2 step 4).

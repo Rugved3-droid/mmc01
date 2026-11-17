@@ -1,0 +1,4 @@
+﻿data/raw/*.gz
+data/raw/*.txt
+data/raw/*.tsv
+__pycache__/

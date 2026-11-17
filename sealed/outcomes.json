@@ -1,0 +1,273 @@
+{
+  "schema": "mmc01-sealed-outcomes-v1",
+  "built_utc": "2026-11-17",
+  "coding_rules": "sealed/CODING_RULES.md",
+  "adjudication_sources": {
+    "dexrazoxane": "de Baat EC, et al. Dexrazoxane for preventing or reducing cardiotoxicity in adults and children with cancer receiving anthracyclines. Cochrane Database Syst Rev. 2022;CD014638. doi:10.1002/14651858.CD014638.pub2",
+    "dexrazoxane_prior": "van Dalen EC, et al. Cardioprotective interventions for cancer patients receiving anthracyclines. Cochrane Database Syst Rev. 2011 (10 studies, n=1619; HF RR 0.29)",
+    "acei": "Safwan M, Safwan Bourgleh M, AlShakaki H, Haider KH. Angiotensin converting enzyme inhibitors (ACEIs) for anthracycline-induced cardiotoxicity: a systematic review and meta-analysis of randomized controlled trials. Ann Saudi Med. 2025;45(6):421-434. doi:10.5144/0256-4947.2025.421",
+    "beta_blocker": "Ma Y, et al. Beta-blockers for the primary prevention of anthracycline-induced cardiotoxicity: a meta-analysis of randomized controlled trials. BMC Pharmacol Toxicol. 2019;20:18. doi:10.1186/s40360-019-0298-6",
+    "statin": "Agarwal S, et al. Statins for Primary Prevention of Anthracycline Chemotherapy-Related Cardiac Dysfunction: A Systematic Review and Meta-analysis of Randomized Controlled Trials. Am J Cardiol. 2023;206:63-66. doi:10.1016/j.amjcard.2023.08.123",
+    "trastuzumab_setting": "Liu Y, Zhang L, Guan J, Wang Z, Luan X. Beta-blockers, renin-angiotensin system inhibitors, and cardiovascular outcomes during trastuzumab therapy for HER2-positive breast cancer: a systematic review and meta-analysis of randomized controlled trials. Transl Cancer Res. 2026;15(10):733. doi:10.21037/tcr-2026-1107",
+    "neurohormonal_pooled": "Vaduganathan M, et al. meta-analysis of neurohormonal therapy during chemotherapy (3.96% less LVEF decline vs placebo, significant heterogeneity), 2019",
+    "trial_table": "Tuzovic M, et al. Summary of Clinical Trials for the Prevention and Treatment of Cardiomyopathy Related to Anthracyclines and HER2-Targeted Agents. American College of Cardiology Expert Analysis, 2020 (Table 1)"
+  },
+
+  "pairs": [
+    {
+      "pair_id": "dexrazoxane__M1",
+      "protectant": "dexrazoxane",
+      "module": "M1",
+      "n_trials": 7,
+      "pooled_n": 1221,
+      "endpoint_type": "clinical_events",
+      "outcome_code": "POSITIVE",
+      "rule_applied": "R5",
+      "evidence": "Cochrane de Baat 2022: clinical heart failure RR 0.22 (95% CI 0.11-0.43), 7 studies, 1221 adults, moderate-certainty. Prior Cochrane van Dalen 2011: HF RR 0.29 (0.20-0.41), 10 studies, n=1619.",
+      "trials": [
+        "Swain SM, et al. 1997 (two multicentre double-blind studies, n=534; HR placebo:dexrazoxane 2.0 and 2.63)",
+        "Asselin BL, et al. 2016 (T-ALL/lymphoblastic NHL, n=537; delta LV fractional shortening z-score -0.05 vs -0.77, p=0.005)"
+      ],
+      "notes": "The one pair where the field agrees mechanism is matched and protection is real. This is the Gate 3 positive control."
+    },
+    {
+      "pair_id": "enalapril__M1",
+      "protectant": "enalapril",
+      "module": "M1",
+      "n_trials": 6,
+      "pooled_n": 848,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "MIXED",
+      "rule_applied": "R5",
+      "evidence": "Qualifying RCTs disagree on their own primary endpoints.",
+      "trials": [
+        "Cardinale D, et al. 2006 (n=114, troponin-positive; cardiac events 0% enalapril vs 43% control, p<0.001) POSITIVE",
+        "Janbabai G, et al. 2017 (n=69; delta LVEF +0.55+/-5.60% vs -13.30+/-7.38%, p<0.001) POSITIVE",
+        "Silber JH, et al. 2004 (n=135 paediatric survivors; maximum cardiac index p=0.55) NULL",
+        "Georgakopoulos P, et al. 2010 (n=147 lymphoma; HF events, no significant change) NULL",
+        "Cardinale D, et al. ICOS-ONE 2018 (n=273; no difference in LVEF decline >=10% to <50%) NULL",
+        "Austin D, et al. PROACT 2024, JACC CardioOncology, doi:10.1016/j.jaccao.2024.07.010 (enalapril did not prevent cardiotoxicity) NULL"
+      ],
+      "notes": "ACEI meta-analysis (Safwan 2025) significant for LVEF at 6 months (WMD 7.93, 95% CI 3.18-12.67) but not at 12 months (WMD 4.08, 95% CI -0.53 to 8.69), and HF OR 0.20 (0.03-1.60) non-significant. Trial-level disagreement governs under R5."
+    },
+    {
+      "pair_id": "candesartan__M1",
+      "protectant": "candesartan",
+      "module": "M1",
+      "n_trials": 1,
+      "pooled_n": 130,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "POSITIVE",
+      "rule_applied": "R6",
+      "evidence": "PRADA (Gulati G, et al. 2016, n=130): primary endpoint LVEF change by cardiac MRI; decline 0.8% candesartan vs 2.6% placebo, p=0.026.",
+      "trials": [
+        "Gulati G, et al. PRADA 2016 (n=130) POSITIVE on primary"
+      ],
+      "notes": "PRADA extended follow-up (Circulation 2021) found no between-group difference at median 23 months; under R4 the extended report does not override the primary. Cardiac CARE (candesartan + carvedilol combination, Circulation 2023, null) is excluded by R2 as a combination arm. Directional concordance from the trastuzumab-setting RASi estimate (MD 2.90, 95% CI 0.92-4.87)."
+    },
+    {
+      "pair_id": "metoprolol__M1",
+      "protectant": "metoprolol",
+      "module": "M1",
+      "n_trials": 2,
+      "pooled_n": 277,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "MIXED",
+      "rule_applied": "R8",
+      "evidence": "PRADA 2016: no difference in LVEF for metoprolol vs placebo on the primary endpoint, but metoprolol attenuated the rise in cardiac troponins (secondary).",
+      "trials": [
+        "Gulati G, et al. PRADA 2016 (n=130) NULL on primary, significant on secondary troponin",
+        "Georgakopoulos P, et al. 2010 (n=147; HF events, no significant change) NULL"
+      ],
+      "notes": "R8 promotes NULL to MIXED because a prespecified secondary cardiac endpoint was significant-favourable."
+    },
+    {
+      "pair_id": "carvedilol__M1",
+      "protectant": "carvedilol",
+      "module": "M1",
+      "n_trials": 4,
+      "pooled_n": 391,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "MIXED",
+      "rule_applied": "R5",
+      "evidence": "Qualifying RCTs disagree.",
+      "trials": [
+        "Kalay N, et al. 2006 (n=50; LVEF 70.5->69.7% carvedilol vs 68.9->52.3% control) POSITIVE",
+        "Nabati M, et al. 2017 (n=91; intergroup p<0.001) POSITIVE",
+        "El-Shitany NA, et al. 2012 (n=50 children with ALL; fractional shortening and strain favour carvedilol, p<=0.05) POSITIVE",
+        "Avila MS, et al. CECCY 2018 (n=200; LVEF reduction >=10% in 14.5% vs 13.5%, p=1.0) NULL on primary, significant on secondary troponin and diastolic dysfunction"
+      ],
+      "notes": "CECCY is the largest and only clearly placebo-controlled, adequately powered trial and is null on its primary."
+    },
+    {
+      "pair_id": "nebivolol__M1",
+      "protectant": "nebivolol",
+      "module": "M1",
+      "n_trials": 2,
+      "pooled_n": 125,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "MIXED",
+      "rule_applied": "R5",
+      "evidence": "Qualifying RCTs disagree.",
+      "trials": [
+        "Kaya MG, et al. 2013 (n=45; LVEF at 6 months 63.8+/-3.9% nebivolol vs 57.5+/-5.6% placebo, p=0.01; PMID 22727976) POSITIVE",
+        "CONTROL trial 2024/2025, Cardiovasc Res, doi:10.1093/cvr/cvae266 (n=80; LVEF reduction at 12 months, difference 1.2%, 95% CI -2.1 to 4.5, p=0.48) NULL"
+      ],
+      "notes": "The larger and more recent trial is null."
+    },
+    {
+      "pair_id": "spironolactone__M1",
+      "protectant": "spironolactone",
+      "module": "M1",
+      "n_trials": 1,
+      "pooled_n": 83,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "POSITIVE",
+      "rule_applied": "R6",
+      "evidence": "Akpek M, et al. Eur J Heart Fail. 2015;17:81-89, doi:10.1002/ejhf.196 (n=83, NCT02053974). LVEF 67+/-6.3 -> 65.7+/-7.4% spironolactone vs 67.7+/-6.3 -> 53.6+/-5.8% control at 24 weeks. Trial stopped early at interim analysis for efficacy.",
+      "trials": [
+        "Akpek M, et al. 2015 (n=83) POSITIVE"
+      ],
+      "notes": "Single small single-centre trial stopped early for benefit; early stopping inflates effect size. Directional concordance from the pooled neurohormonal estimate (Vaduganathan 2019). No second RCT exists for this pair."
+    },
+    {
+      "pair_id": "atorvastatin__M1",
+      "protectant": "atorvastatin",
+      "module": "M1",
+      "n_trials": 3,
+      "pooled_n": 619,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "MIXED",
+      "rule_applied": "R5",
+      "evidence": "Qualifying RCTs disagree.",
+      "trials": [
+        "Neilan TG, et al. STOP-CA 2023, JAMA, doi:10.1001/jama.2023.11887 (n=300 lymphoma; primary LVEF decline >=10% to <55% in 9% vs 22%) POSITIVE",
+        "Hundley WG, et al. PREVENT (n=279 breast cancer/lymphoma; LVEF difference 0.79%, p=0.34) NULL",
+        "Acar Z, et al. 2011 (n=40; stated primary LVEF<50% in 5% statin vs 25% control, p=0.18) NULL"
+      ],
+      "notes": "Acar 2011 is widely cited for its significant LVEF-change comparison (p<0.001), but its stated primary outcome (LVEF<50%) was p=0.18. Statin class meta-analysis (Agarwal 2023) is significant for incident CTRCD (RR 0.46, 95% CI 0.29-0.74), but the trial-level disagreement governs under R5."
+    },
+    {
+      "pair_id": "sacubitril_valsartan__M1",
+      "protectant": "sacubitril/valsartan",
+      "module": "M1",
+      "n_trials": 1,
+      "pooled_n": 114,
+      "endpoint_type": "surrogate_subclinical",
+      "outcome_code": "POSITIVE",
+      "rule_applied": "R6",
+      "evidence": "SARAH trial, Circulation 2025, doi:10.1161/CIRCULATIONAHA.125.073322 (n=114, troponin-elevated). Primary endpoint GLS reduction >15% at 6 months: 4 patients (7.1%) vs 14 (25.0%).",
+      "trials": [
+        "SARAH 2025 (n=114) POSITIVE on primary"
+      ],
+      "notes": "Primary endpoint is a subclinical strain surrogate, not LVEF-defined CTRCD or clinical events. Flagged surrogate_subclinical and dropped by section 9 sensitivity analysis 4. A meta-analysis of sacubitril/valsartan in anthracycline-treated patients reports no significant LVEF effect but a favourable GLS effect, i.e. directionally concordant on the endpoint actually used."
+    },
+    {
+      "pair_id": "candesartan__M2",
+      "protectant": "candesartan",
+      "module": "M2",
+      "n_trials": 1,
+      "pooled_n": 210,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "NULL",
+      "rule_applied": "R6",
+      "evidence": "Boekhout AH, et al. 2016 (n=210). Primary: LVEF reduction >=15% or absolute <45%; 19% candesartan vs 16% placebo, p=0.58.",
+      "trials": [
+        "Boekhout AH, et al. 2016 (n=210) NULL"
+      ],
+      "notes": "All participants had previously received anthracyclines, but the trial names trastuzumab-related cardiotoxicity as its target and candesartan was given with trastuzumab. Assigned M2 under R9."
+    },
+    {
+      "pair_id": "lisinopril__M2",
+      "protectant": "lisinopril",
+      "module": "M2",
+      "n_trials": 1,
+      "pooled_n": 468,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "NULL",
+      "rule_applied": "R6",
+      "evidence": "Guglin M, et al. 2019, J Am Coll Cardiol 74:2859-2868, doi:10.1016/j.jacc.2019.03.495 (n=468). Cardiotoxicity 30% lisinopril vs 32% placebo; no significant difference.",
+      "trials": [
+        "Guglin M, et al. 2019 (n=468) NULL"
+      ],
+      "notes": "The prior-anthracycline subgroup was favourable (HR 0.53, 95% CI 0.30-0.94) but is subgroup-only and excluded by R3."
+    },
+    {
+      "pair_id": "carvedilol__M2",
+      "protectant": "carvedilol",
+      "module": "M2",
+      "n_trials": 1,
+      "pooled_n": 468,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "NULL",
+      "rule_applied": "R6",
+      "evidence": "Guglin M, et al. 2019 (n=468). Cardiotoxicity 29% carvedilol vs 32% placebo; no significant difference.",
+      "trials": [
+        "Guglin M, et al. 2019 (n=468) NULL"
+      ],
+      "notes": "Prior-anthracycline subgroup HR 0.49 (95% CI 0.27-0.89) excluded by R3."
+    },
+    {
+      "pair_id": "bisoprolol__M2",
+      "protectant": "bisoprolol",
+      "module": "M2",
+      "n_trials": 1,
+      "pooled_n": 99,
+      "endpoint_type": "lvef_ctrcd",
+      "outcome_code": "MIXED",
+      "rule_applied": "R8",
+      "evidence": "MANTICORE 101-Breast (Pituskin E, et al. 2017, n=99). Primary endpoint indexed LVEDV change on MRI: placebo +4+/-11, perindopril +7+/-14, bisoprolol +8+/-9 mL/m2, p=0.36. Secondary LVEF decline bisoprolol -1+/-5% vs placebo -5+/-5%, group p=0.001.",
+      "trials": [
+        "Pituskin E, et al. MANTICORE 2017 (n=99) NULL on primary, significant on secondary LVEF"
+      ],
+      "notes": "R8 promotes to MIXED. The perindopril arm cannot be used: perindopril is not on the section 5 candidate list and the list may not be extended."
+    }
+  ],
+
+  "recorded_not_coded": [
+    {
+      "item": "rosuvastatin",
+      "reason": "Ambiguous module under R9",
+      "detail": "Kettana KM, El-Haggar SM, Alm El-Din MA, El-Afify DR. Med Oncol. 2024;41(8):196. doi:10.1007/s12032-024-02426-1 (n=50, NCT05338723). ALL participants received doxorubicin x4 cycles AND adjuvant trastuzumab; the paper frames itself as preventing 'chemotherapy-induced cardiotoxicity' in patients receiving both. Significantly lower LVEF decline at 3 and 6 months. Cannot be attributed to M1 or M2."
+    },
+    {
+      "item": "OVERCOME (Bosch X, et al. 2013, n=90)",
+      "reason": "Combination arm, excluded by R2",
+      "detail": "Enalapril + carvedilol vs control; LVEF difference -3.1% at 6 months, p=0.035; death or HF 6.7% vs 22%, p=0.036. Not attributable to either single drug."
+    },
+    {
+      "item": "Cardiac CARE (Circulation 2023, doi:10.1161/CIRCULATIONAHA.123.064274)",
+      "reason": "Combination arm, excluded by R2",
+      "detail": "Troponin-guided candesartan + carvedilol; did not prevent LVEF decline at 6 months; poorly tolerated."
+    },
+    {
+      "item": "perindopril (MANTICORE arm)",
+      "reason": "Not on the section 5 candidate list, which may not be extended",
+      "detail": "+7+/-14 mL/m2 LVEDV change; contributes to MANTICORE's null primary."
+    },
+    {
+      "item": "valsartan",
+      "reason": "No qualifying trial verified",
+      "detail": "Nakamae H, et al. valsartan with CHOP was referenced but its design and results could not be verified from primary sources in this build. Not coded rather than coded on an unverified basis."
+    },
+    {
+      "item": "eplerenone",
+      "reason": "No prospective cardio-oncology cardioprotection RCT identified"
+    },
+    {
+      "item": "dapagliflozin, empagliflozin",
+      "reason": "No completed RCT",
+      "detail": "PROTECT (dapagliflozin) and EMPACT/NCT05271162 (empagliflozin) are registered and ongoing. Human evidence to date is observational; randomised evidence is a large-animal study."
+    },
+    {
+      "item": "M3 (VEGF-pathway inhibition)",
+      "reason": "Zero evaluable pairs",
+      "detail": "No completed prospective randomised cardioprotection trial against bevacizumab/sunitinib/sorafenib cardiac dysfunction was identified. The only randomised evidence located is a mouse study of renin-angiotensin antagonists."
+    },
+    {
+      "item": "M4 (proteasome-inhibitor cardiac dysfunction)",
+      "reason": "Zero evaluable pairs",
+      "detail": "No completed prospective randomised cardioprotection trial against carfilzomib or bortezomib cardiac dysfunction was identified."
+    }
+  ]
+}
