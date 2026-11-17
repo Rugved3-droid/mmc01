@@ -1,0 +1,110 @@
+{
+ "threshold_used_for_gates": 700,
+ "seed": 20261117,
+ "gate0_module_viability": {
+  "verdict": "CONDITIONAL",
+  "surviving_modules": [
+   "M1",
+   "M2",
+   "M4"
+  ],
+  "n_surviving": 3,
+  "per_module": {
+   "M1": {
+    "genes_declared": 34,
+    "genes_after_two_source_rule": 34,
+    "genes_after_hgnc_mapping": 34,
+    "genes_in_lcc": 34,
+    "mapping_loss_fraction": 0.0,
+    "mapping_loss_flagged_over_10pct": false,
+    "meets_15_gene_minimum": true
+   },
+   "M2": {
+    "genes_declared": 15,
+    "genes_after_two_source_rule": 15,
+    "genes_after_hgnc_mapping": 15,
+    "genes_in_lcc": 15,
+    "mapping_loss_fraction": 0.0,
+    "mapping_loss_flagged_over_10pct": false,
+    "meets_15_gene_minimum": true
+   },
+   "M3": {
+    "genes_declared": 14,
+    "genes_after_two_source_rule": 14,
+    "genes_after_hgnc_mapping": 14,
+    "genes_in_lcc": 13,
+    "mapping_loss_fraction": 0.0,
+    "mapping_loss_flagged_over_10pct": false,
+    "meets_15_gene_minimum": false
+   },
+   "M4": {
+    "genes_declared": 15,
+    "genes_after_two_source_rule": 15,
+    "genes_after_hgnc_mapping": 15,
+    "genes_in_lcc": 15,
+    "mapping_loss_fraction": 0.0,
+    "mapping_loss_flagged_over_10pct": false,
+    "meets_15_gene_minimum": true
+   }
+  },
+  "rule": "all modules >=15 genes -> PASS; >=3 survive -> CONDITIONAL; <3 -> FAIL"
+ },
+ "gate1_target_coverage": {
+  "verdict": "CONDITIONAL",
+  "n_protectants_mapped_in_lcc": 16,
+  "n_protectants_total": 16,
+  "median_direction_coverage": 0.42,
+  "direction_coverage_per_drug": {
+   "dexrazoxane": 0.4,
+   "enalapril": 0.105,
+   "lisinopril": 0.222,
+   "candesartan": 0.143,
+   "valsartan": 0.667,
+   "carvedilol": 0.44,
+   "metoprolol": 0.231,
+   "nebivolol": 0.833,
+   "bisoprolol": 0.5,
+   "spironolactone": 0.062,
+   "eplerenone": 0.5,
+   "atorvastatin": 0.038,
+   "rosuvastatin": 0.087,
+   "sacubitril/valsartan": 0.8,
+   "dapagliflozin": 0.75,
+   "empagliflozin": 0.75
+  },
+  "dropped_zero_targets": [],
+  "rule": ">=12 of 16 mapped -> PASS; median direction coverage <0.5 -> CONDITIONAL",
+  "note": "CONDITIONAL here must be stated as a primary limitation"
+ },
+ "gate3_positive_control": {
+  "verdict": "PASS",
+  "dexrazoxane_M1_z": -2.6511,
+  "top_quartile_cutoff_z": -1.6021,
+  "percentile_of_all_z": 4.7,
+  "n_z_scores_in_reference_set": 64,
+  "rule": "z <= 25th percentile of all computed z-scores",
+  "note": "FAIL means stop and write up the negative methods finding. Do not adjust the module, threshold or metric to rescue it."
+ },
+ "gate4_negative_control": {
+  "verdict": "FAIL",
+  "verdict_by_drug_module_pair": "FAIL",
+  "verdict_by_distinct_drug": "CONDITIONAL",
+  "n_violations_pairs": 2,
+  "n_violations_distinct_drugs": 1,
+  "violations": [
+   {
+    "drug": "levothyroxine",
+    "module": "M2",
+    "z": -2.645
+   },
+   {
+    "drug": "levothyroxine",
+    "module": "M3",
+    "z": -3.1253
+   }
+  ],
+  "top_quartile_cutoff_z": -1.6021,
+  "rule": "0 violations PASS; 1 CONDITIONAL; >=2 FAIL",
+  "ambiguity_note": "unit of 'violation' not pre-specified; stricter (pair-counting) reading taken as the headline verdict"
+ }
+}

@@ -1,0 +1,71 @@
+# MMC-01 sections 3 and 6 — graph and metric parameters.
+# Specified fresh in the protocol document. Nothing here is imported from CAMR.
+
+interactome:
+  source: STRING
+  organism: 9606
+  version: "v12.0"
+  score: combined_score   # physical and functional combined
+  directed: false
+  files:
+    links: 9606.protein.links.v12.0.txt.gz
+    info: 9606.protein.info.v12.0.txt.gz
+    aliases: 9606.protein.aliases.v12.0.txt.gz
+  provenance: data/raw/PROVENANCE.json
+
+symbol_namespace:
+  authority: HGNC
+  file: hgnc_complete_set.txt
+  rule: >
+    Every symbol is normalised to an HGNC-approved symbol before touching the
+    graph, via approved -> alias -> previous symbol, never overriding an
+    approved symbol. Mapping loss is reported per module and per drug.
+  module_mapping_loss_flag_threshold: 0.10
+
+thresholds:
+  grid: [400, 700, 900]
+  primary: 700
+  primary_justification: >
+    700 is STRING's own high-confidence cutoff. NOTE: the protocol justified 700
+    as "what the CAMR code actually executed". That justification has been
+    withdrawn: the CAMR revision was never submitted and the paper will not
+    appear, so CAMR cannot be cited here. 700 is retained on its own merits and
+    400 and 900 are reported in every table regardless. See RUNLOG.md.
+  sensitivity_arms_reported_always: true
+
+built_graphs:
+  "400": {lcc_nodes: 19221, lcc_edges: 919509, components: 2}
+  "700": {lcc_nodes: 15726, lcc_edges: 234156, components: 125}
+  "900": {lcc_nodes: 11605, lcc_edges: 99615, components: 245}
+
+metric:
+  primary:
+    name: closest_distance_proximity
+    formulation: Guney/Menche
+    definition: >
+      For protectant target set T and module M, the mean over t in T of the
+      shortest path length from t to its nearest node in M.
+    reported_quantity: degree-matched z-score (not the raw distance)
+  secondary:
+    name: separation
+    formulation: Menche S_AB
+    promoted_to_primary: false
+
+null_model:
+  type: degree-matched binned null
+  n_permutations: 1000
+  min_nodes_per_degree_bin: 100
+  matched: [target_set_T, module_M]
+  rationale: >
+    The interactome is study-biased: well-studied genes carry more edges, so raw
+    distances are not comparable across drugs.
+
+binary_prediction:
+  cutoff_z: -1.0
+  label_if_below: matched
+  note: fixed before anything ran; not tuned
+
+seeds:
+  primary: 20261117
+  replication_reserved_unused: 20261118
+  rule: the primary seed is printed in every output

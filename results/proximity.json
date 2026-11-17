@@ -1,0 +1,911 @@
+{
+ "seed": 20261117,
+ "n_perm": 1000,
+ "arms": {
+  "700": {
+   "dexrazoxane": {
+    "group": "protectant",
+    "n_targets": 5,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.2,
+      "null_mean": 1.783,
+      "null_sd": 0.2199,
+      "z": -2.6511,
+      "n_perm": 1000,
+      "s_ab": 0.2335,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 2.0,
+      "null_mean": 1.8872,
+      "null_sd": 0.2473,
+      "z": 0.4561,
+      "n_perm": 1000,
+      "s_ab": 0.3,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.2,
+      "null_mean": 2.1286,
+      "null_sd": 0.246,
+      "z": 0.2902,
+      "n_perm": 1000,
+      "s_ab": 0.7111,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.0,
+      "null_mean": 1.9486,
+      "null_sd": 0.2518,
+      "z": 0.2042,
+      "n_perm": 1000,
+      "s_ab": 0.45,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "enalapril": {
+    "group": "protectant",
+    "n_targets": 19,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.4737,
+      "null_mean": 1.6242,
+      "null_sd": 0.1115,
+      "z": -1.3499,
+      "n_perm": 1000,
+      "s_ab": 0.2023,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.5789,
+      "null_mean": 1.7151,
+      "null_sd": 0.12,
+      "z": -1.1345,
+      "n_perm": 1000,
+      "s_ab": 0.2012,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 1.6316,
+      "null_mean": 1.9252,
+      "null_sd": 0.1151,
+      "z": -2.5511,
+      "n_perm": 1000,
+      "s_ab": 0.4457,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 1.8421,
+      "null_mean": 1.7671,
+      "null_sd": 0.1163,
+      "z": 0.6449,
+      "n_perm": 1000,
+      "s_ab": 0.3777,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "lisinopril": {
+    "group": "protectant",
+    "n_targets": 9,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.4444,
+      "null_mean": 1.7901,
+      "null_sd": 0.1683,
+      "z": -2.0536,
+      "n_perm": 1000,
+      "s_ab": 0.6169,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.5556,
+      "null_mean": 1.8909,
+      "null_sd": 0.1802,
+      "z": -1.8609,
+      "n_perm": 1000,
+      "s_ab": 0.3472,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 1.5556,
+      "null_mean": 2.0881,
+      "null_sd": 0.1751,
+      "z": -3.0419,
+      "n_perm": 1000,
+      "s_ab": 0.4495,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 1.7778,
+      "null_mean": 1.9412,
+      "null_sd": 0.1843,
+      "z": -0.8871,
+      "n_perm": 1000,
+      "s_ab": 0.5556,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "candesartan": {
+    "group": "protectant",
+    "n_targets": 14,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.8571,
+      "null_mean": 1.897,
+      "null_sd": 0.1443,
+      "z": -0.2763,
+      "n_perm": 1000,
+      "s_ab": 0.1822,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.9286,
+      "null_mean": 2.0029,
+      "null_sd": 0.1497,
+      "z": -0.4962,
+      "n_perm": 1000,
+      "s_ab": 0.1872,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 1.9286,
+      "null_mean": 2.1866,
+      "null_sd": 0.1514,
+      "z": -1.7044,
+      "n_perm": 1000,
+      "s_ab": 0.2434,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 1.9286,
+      "null_mean": 2.0426,
+      "null_sd": 0.1546,
+      "z": -0.7372,
+      "n_perm": 1000,
+      "s_ab": 0.2906,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "valsartan": {
+    "group": "protectant",
+    "n_targets": 3,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 2.0,
+      "null_mean": 1.8627,
+      "null_sd": 0.2648,
+      "z": 0.5187,
+      "n_perm": 1000,
+      "s_ab": 0.3466,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 2.0,
+      "null_mean": 1.9977,
+      "null_sd": 0.2784,
+      "z": 0.0084,
+      "n_perm": 1000,
+      "s_ab": 0.0556,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.0,
+      "null_mean": 2.1287,
+      "null_sd": 0.3155,
+      "z": -0.4078,
+      "n_perm": 1000,
+      "s_ab": 0.125,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.0,
+      "null_mean": 2.009,
+      "null_sd": 0.2854,
+      "z": -0.0315,
+      "n_perm": 1000,
+      "s_ab": 0.4444,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "carvedilol": {
+    "group": "protectant",
+    "n_targets": 25,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.72,
+      "null_mean": 1.9132,
+      "null_sd": 0.1194,
+      "z": -1.6172,
+      "n_perm": 1000,
+      "s_ab": 0.3622,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.88,
+      "null_mean": 2.0148,
+      "null_sd": 0.1244,
+      "z": -1.0838,
+      "n_perm": 1000,
+      "s_ab": 0.485,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.08,
+      "null_mean": 2.2027,
+      "null_sd": 0.1192,
+      "z": -1.0294,
+      "n_perm": 1000,
+      "s_ab": 0.7074,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.08,
+      "null_mean": 2.0579,
+      "null_sd": 0.119,
+      "z": 0.1859,
+      "n_perm": 1000,
+      "s_ab": 0.785,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "metoprolol": {
+    "group": "protectant",
+    "n_targets": 13,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.8462,
+      "null_mean": 2.1078,
+      "null_sd": 0.1644,
+      "z": -1.5911,
+      "n_perm": 1000,
+      "s_ab": 0.2448,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.9231,
+      "null_mean": 2.2451,
+      "null_sd": 0.1823,
+      "z": -1.7659,
+      "n_perm": 1000,
+      "s_ab": 0.239,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.0,
+      "null_mean": 2.4256,
+      "null_sd": 0.1723,
+      "z": -2.4695,
+      "n_perm": 1000,
+      "s_ab": 0.3077,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.2308,
+      "null_mean": 2.2769,
+      "null_sd": 0.1692,
+      "z": -0.2727,
+      "n_perm": 1000,
+      "s_ab": 0.4176,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "nebivolol": {
+    "group": "protectant",
+    "n_targets": 6,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 2.0,
+      "null_mean": 2.1162,
+      "null_sd": 0.2521,
+      "z": -0.4608,
+      "n_perm": 1000,
+      "s_ab": 0.5495,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 2.0,
+      "null_mean": 2.2252,
+      "null_sd": 0.2489,
+      "z": -0.9047,
+      "n_perm": 1000,
+      "s_ab": 0.2857,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.1667,
+      "null_mean": 2.4013,
+      "null_sd": 0.2595,
+      "z": -0.9044,
+      "n_perm": 1000,
+      "s_ab": 0.2807,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.1667,
+      "null_mean": 2.2542,
+      "null_sd": 0.2445,
+      "z": -0.3579,
+      "n_perm": 1000,
+      "s_ab": 0.619,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "bisoprolol": {
+    "group": "protectant",
+    "n_targets": 4,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 2.5,
+      "null_mean": 2.2973,
+      "null_sd": 0.3003,
+      "z": 0.6752,
+      "n_perm": 1000,
+      "s_ab": 0.2175,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 2.5,
+      "null_mean": 2.456,
+      "null_sd": 0.3046,
+      "z": 0.1445,
+      "n_perm": 1000,
+      "s_ab": -0.0921,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.5,
+      "null_mean": 2.6183,
+      "null_sd": 0.3335,
+      "z": -0.3546,
+      "n_perm": 1000,
+      "s_ab": -0.1324,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.25,
+      "null_mean": 2.48,
+      "null_sd": 0.3169,
+      "z": -0.7257,
+      "n_perm": 1000,
+      "s_ab": -0.0395,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "spironolactone": {
+    "group": "protectant",
+    "n_targets": 16,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.4375,
+      "null_mean": 1.6852,
+      "null_sd": 0.1256,
+      "z": -1.9713,
+      "n_perm": 1000,
+      "s_ab": 0.3162,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.625,
+      "null_mean": 1.7798,
+      "null_sd": 0.1335,
+      "z": -1.1597,
+      "n_perm": 1000,
+      "s_ab": 0.3589,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 1.625,
+      "null_mean": 1.9979,
+      "null_sd": 0.1307,
+      "z": -2.8524,
+      "n_perm": 1000,
+      "s_ab": 0.5302,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 1.625,
+      "null_mean": 1.837,
+      "null_sd": 0.1327,
+      "z": -1.5971,
+      "n_perm": 1000,
+      "s_ab": 0.5202,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "eplerenone": {
+    "group": "protectant",
+    "n_targets": 2,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.5,
+      "null_mean": 1.9585,
+      "null_sd": 0.3408,
+      "z": -1.3454,
+      "n_perm": 1000,
+      "s_ab": 0.969,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.5,
+      "null_mean": 2.1205,
+      "null_sd": 0.3555,
+      "z": -1.7456,
+      "n_perm": 1000,
+      "s_ab": 0.4412,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.0,
+      "null_mean": 2.272,
+      "null_sd": 0.3836,
+      "z": -0.709,
+      "n_perm": 1000,
+      "s_ab": 1.1,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 1.5,
+      "null_mean": 2.1715,
+      "null_sd": 0.3775,
+      "z": -1.779,
+      "n_perm": 1000,
+      "s_ab": 0.6765,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "atorvastatin": {
+    "group": "protectant",
+    "n_targets": 52,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.5,
+      "null_mean": 1.7318,
+      "null_sd": 0.0797,
+      "z": -2.9068,
+      "n_perm": 1000,
+      "s_ab": 0.345,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.8077,
+      "null_mean": 1.8426,
+      "null_sd": 0.0854,
+      "z": -0.4087,
+      "n_perm": 1000,
+      "s_ab": 0.5606,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 1.8654,
+      "null_mean": 2.0279,
+      "null_sd": 0.0786,
+      "z": -2.0682,
+      "n_perm": 1000,
+      "s_ab": 0.6423,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 1.9231,
+      "null_mean": 1.8765,
+      "null_sd": 0.0804,
+      "z": 0.5796,
+      "n_perm": 1000,
+      "s_ab": 0.7397,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "rosuvastatin": {
+    "group": "protectant",
+    "n_targets": 23,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.7826,
+      "null_mean": 1.9884,
+      "null_sd": 0.1208,
+      "z": -1.7044,
+      "n_perm": 1000,
+      "s_ab": 0.5701,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 2.0435,
+      "null_mean": 2.0996,
+      "null_sd": 0.133,
+      "z": -0.4221,
+      "n_perm": 1000,
+      "s_ab": 0.778,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.3043,
+      "null_mean": 2.2753,
+      "null_sd": 0.1335,
+      "z": 0.2176,
+      "n_perm": 1000,
+      "s_ab": 0.971,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.0435,
+      "null_mean": 2.1347,
+      "null_sd": 0.1271,
+      "z": -0.7177,
+      "n_perm": 1000,
+      "s_ab": 0.778,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "sacubitril/valsartan": {
+    "group": "protectant",
+    "n_targets": 5,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.8,
+      "null_mean": 2.0862,
+      "null_sd": 0.2481,
+      "z": -1.1536,
+      "n_perm": 1000,
+      "s_ab": 0.3976,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 2.0,
+      "null_mean": 2.2086,
+      "null_sd": 0.2616,
+      "z": -0.7974,
+      "n_perm": 1000,
+      "s_ab": 0.25,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.2,
+      "null_mean": 2.3856,
+      "null_sd": 0.276,
+      "z": -0.6724,
+      "n_perm": 1000,
+      "s_ab": 0.3111,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.2,
+      "null_mean": 2.242,
+      "null_sd": 0.2592,
+      "z": -0.162,
+      "n_perm": 1000,
+      "s_ab": 0.35,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "dapagliflozin": {
+    "group": "protectant",
+    "n_targets": 4,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 2.25,
+      "null_mean": 2.1452,
+      "null_sd": 0.3121,
+      "z": 0.3356,
+      "n_perm": 1000,
+      "s_ab": 0.9412,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 2.25,
+      "null_mean": 2.2973,
+      "null_sd": 0.3091,
+      "z": -0.1529,
+      "n_perm": 1000,
+      "s_ab": 0.5526,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.25,
+      "null_mean": 2.4755,
+      "null_sd": 0.3066,
+      "z": -0.7355,
+      "n_perm": 1000,
+      "s_ab": 0.9118,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.25,
+      "null_mean": 2.332,
+      "null_sd": 0.3136,
+      "z": -0.2614,
+      "n_perm": 1000,
+      "s_ab": 0.9737,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "empagliflozin": {
+    "group": "protectant",
+    "n_targets": 4,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 2.25,
+      "null_mean": 2.1815,
+      "null_sd": 0.3135,
+      "z": 0.2185,
+      "n_perm": 1000,
+      "s_ab": 0.9412,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 2.25,
+      "null_mean": 2.2997,
+      "null_sd": 0.3032,
+      "z": -0.1641,
+      "n_perm": 1000,
+      "s_ab": 0.5526,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.25,
+      "null_mean": 2.4682,
+      "null_sd": 0.3155,
+      "z": -0.6918,
+      "n_perm": 1000,
+      "s_ab": 0.9118,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.25,
+      "null_mean": 2.3392,
+      "null_sd": 0.304,
+      "z": -0.2935,
+      "n_perm": 1000,
+      "s_ab": 0.9737,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "loratadine": {
+    "group": "negative_control",
+    "n_targets": 16,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.625,
+      "null_mean": 1.6365,
+      "null_sd": 0.126,
+      "z": -0.0913,
+      "n_perm": 1000,
+      "s_ab": 0.2599,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.625,
+      "null_mean": 1.7137,
+      "null_sd": 0.1315,
+      "z": -0.6745,
+      "n_perm": 1000,
+      "s_ab": 0.1381,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 1.75,
+      "null_mean": 1.9438,
+      "null_sd": 0.1283,
+      "z": -1.5101,
+      "n_perm": 1000,
+      "s_ab": 0.4084,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 1.8125,
+      "null_mean": 1.7682,
+      "null_sd": 0.1324,
+      "z": 0.3346,
+      "n_perm": 1000,
+      "s_ab": 0.4607,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "omeprazole": {
+    "group": "negative_control",
+    "n_targets": 32,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.8125,
+      "null_mean": 1.7332,
+      "null_sd": 0.0964,
+      "z": 0.8234,
+      "n_perm": 1000,
+      "s_ab": 0.5453,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.875,
+      "null_mean": 1.8242,
+      "null_sd": 0.1069,
+      "z": 0.4755,
+      "n_perm": 1000,
+      "s_ab": 0.6822,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.0312,
+      "null_mean": 2.0441,
+      "null_sd": 0.0992,
+      "z": -0.1291,
+      "n_perm": 1000,
+      "s_ab": 0.7819,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 1.9062,
+      "null_mean": 1.8772,
+      "null_sd": 0.1039,
+      "z": 0.2801,
+      "n_perm": 1000,
+      "s_ab": 0.6822,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "levothyroxine": {
+    "group": "negative_control",
+    "n_targets": 16,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.625,
+      "null_mean": 1.8122,
+      "null_sd": 0.1261,
+      "z": -1.4854,
+      "n_perm": 1000,
+      "s_ab": 0.3912,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.5625,
+      "null_mean": 1.9283,
+      "null_sd": 0.1383,
+      "z": -2.645,
+      "n_perm": 1000,
+      "s_ab": 0.2984,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 1.6875,
+      "null_mean": 2.1259,
+      "null_sd": 0.1403,
+      "z": -3.1253,
+      "n_perm": 1000,
+      "s_ab": 0.4052,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 1.8125,
+      "null_mean": 1.9724,
+      "null_sd": 0.1431,
+      "z": -1.1173,
+      "n_perm": 1000,
+      "s_ab": 0.5242,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "montelukast": {
+    "group": "negative_control",
+    "n_targets": 22,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 2.1818,
+      "null_mean": 1.9809,
+      "null_sd": 0.1259,
+      "z": 1.5954,
+      "n_perm": 1000,
+      "s_ab": 0.8827,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 2.1818,
+      "null_mean": 2.0893,
+      "null_sd": 0.1362,
+      "z": 0.6792,
+      "n_perm": 1000,
+      "s_ab": 0.9165,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.3636,
+      "null_mean": 2.2786,
+      "null_sd": 0.134,
+      "z": 0.6342,
+      "n_perm": 1000,
+      "s_ab": 1.213,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.2273,
+      "null_mean": 2.1348,
+      "null_sd": 0.1277,
+      "z": 0.7242,
+      "n_perm": 1000,
+      "s_ab": 0.9165,
+      "n_module_genes": 15
+     }
+    }
+   },
+   "ranitidine": {
+    "group": "negative_control",
+    "n_targets": 15,
+    "dropped": false,
+    "modules": {
+     "M1": {
+      "d_closest": 1.8,
+      "null_mean": 1.8017,
+      "null_sd": 0.1386,
+      "z": -0.012,
+      "n_perm": 1000,
+      "s_ab": 0.5983,
+      "n_module_genes": 34
+     },
+     "M2": {
+      "d_closest": 1.8,
+      "null_mean": 1.9037,
+      "null_sd": 0.1423,
+      "z": -0.7289,
+      "n_perm": 1000,
+      "s_ab": 0.4667,
+      "n_module_genes": 15
+     },
+     "M3": {
+      "d_closest": 2.0,
+      "null_mean": 2.1231,
+      "null_sd": 0.1491,
+      "z": -0.8253,
+      "n_perm": 1000,
+      "s_ab": 0.7286,
+      "n_module_genes": 13
+     },
+     "M4": {
+      "d_closest": 2.0667,
+      "null_mean": 1.9499,
+      "null_sd": 0.1431,
+      "z": 0.8164,
+      "n_perm": 1000,
+      "s_ab": 0.6,
+      "n_module_genes": 15
+     }
+    }
+   }
+  }
+ }
+}

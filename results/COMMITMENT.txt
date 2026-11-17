@@ -1,0 +1,7 @@
+MMC-01 pre-unsealing commitment (protocol 2.2)
+committed_utc: 2026-11-17T23:56:29Z
+results/predictions.json sha256: 56018d7324ebf2543f850f11e4669cab4124a2d35f03349a3c55e0f2a34ee63a
+n_pairs: 64
+cutoff_z: -1.0
+threshold: 700
+seed: 20261117

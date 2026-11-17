@@ -1,0 +1,32 @@
+[
+  {
+    "threshold": 400,
+    "edges_above_threshold_raw_directed_lines": 1858944,
+    "nodes_total": 19223,
+    "edges_total_undirected": 919510,
+    "n_components": 2,
+    "lcc_nodes": 19221,
+    "lcc_edges_undirected": 919509,
+    "string_symbols_unmapped_by_hgnc": 259
+  },
+  {
+    "threshold": 700,
+    "edges_above_threshold_raw_directed_lines": 473860,
+    "nodes_total": 16040,
+    "edges_total_undirected": 234370,
+    "n_components": 125,
+    "lcc_nodes": 15726,
+    "lcc_edges_undirected": 234156,
+    "string_symbols_unmapped_by_hgnc": 148
+  },
+  {
+    "threshold": 900,
+    "edges_above_threshold_raw_directed_lines": 201712,
+    "nodes_total": 12232,
+    "edges_total_undirected": 100086,
+    "n_components": 245,
+    "lcc_nodes": 11605,
+    "lcc_edges_undirected": 99615,
+    "string_symbols_unmapped_by_hgnc": 89
+  }
+]

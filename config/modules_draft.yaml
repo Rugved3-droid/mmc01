@@ -1,0 +1,533 @@
+modules:
+  M1:
+    mechanism: "Anthracycline cardiomyopathy"
+    seed_sources:
+      - id: S1
+        citation: "Arrigoni R, et al. Pathophysiology of Doxorubicin-Mediated Cardiotoxicity. Toxics. 2025;13:277."
+        pmid: "40278593"
+        doi: "10.3390/toxics13040277"
+        pmcid: "PMC12031459"
+      - id: S2
+        citation: "Bhutani V, et al. Doxorubicin-Induced Cardiotoxicity: A Comprehensive Update. J Cardiovasc Dev Dis. 2025;12:207."
+        pmid: "40558642"
+        doi: "10.3390/jcdd12060207"
+        pmcid: "PMC12193598"
+      - id: S3
+        citation: "Li W, et al. New insights into mitochondrial quality control in anthracycline-induced cardiotoxicity: molecular mechanisms, therapeutic targets, and natural products. Int J Biol Sci. 2025;21:507-523."
+        pmid: "39781459"
+        doi: "10.7150/ijbs.103810"
+        pmcid: "PMC11705644"
+      - id: S4
+        citation: "Qing G, et al. Alteration of cardiac energetics and mitochondrial function in doxorubicin‑induced cardiotoxicity: Molecular mechanism and prospective implications (Review). Int J Mol Med. 2025;56:183."
+        pmid: "40910252"
+        doi: "10.3892/ijmm.2025.5624"
+        pmcid: "PMC12425352"
+      - id: S5
+        citation: "Goswami Y, et al. Doxorubicin-induced cardiotoxicity: Is ferroptosis the primary driver or a downstream amplifier?. EXCLI J. 2026;25:974-990."
+        pmid: "42517079"
+        doi: "10.17179/excli2026-9516"
+        pmcid: "PMC13402738"
+      - id: S6
+        citation: "Zhang P, et al. Ferroptosis in Doxorubicin-Induced Cardiotoxicity: From Molecular Mechanisms to Therapeutic Strategies and Clinical Management Paradigms. Rev Cardiovasc Med. 2026;27:46166."
+        pmid: "42416573"
+        doi: "10.31083/rcm46166"
+        pmcid: "PMC13339178"
+      - id: S7
+        citation: "Saeed HA, et al. Anthracycline- and HER2-induced cardiotoxicity: mechanisms, current strategies, and the emerging role of dapagliflozin as a targeted cardioprotective agent. Cardiooncology. 2025;11:100."
+        pmid: "41189010"
+        doi: "10.1186/s40959-025-00386-7"
+        pmcid: "PMC12584439"
+    genes:
+      - symbol: ACSL4
+        sources: [S5, S6, S7]
+      - symbol: ATP2A2
+        sources: [S2, S5, S7]
+      - symbol: BCL2
+        sources: [S1, S7]
+      - symbol: BNIP3
+        sources: [S3, S4]
+      - symbol: BNIP3L
+        sources: [S3, S4]
+      - symbol: DNM1L
+        sources: [S3, S4, S7]
+      - symbol: FAS
+        sources: [S1, S2]
+      - symbol: FOXO1
+        sources: [S1, S3]
+      - symbol: FUNDC1
+        sources: [S3, S4]
+      - symbol: GATA4
+        sources: [S1, S2, S7]
+      - symbol: GPX4
+        sources: [S1, S5, S6, S7]
+      - symbol: HMOX1
+        sources: [S6, S7]
+      - symbol: IL6
+        sources: [S1, S2]
+      - symbol: MFN1
+        sources: [S3, S4]
+      - symbol: NCOA4
+        sources: [S5, S6]
+      - symbol: NLRP3
+        sources: [S1, S2, S6]
+      - symbol: NRF1
+        sources: [S3, S7]
+      - symbol: OPA1
+        sources: [S3, S7]
+      - symbol: PARP2
+        sources: [S1, S3]
+      - symbol: PPARGC1A
+        sources: [S1, S3, S4, S7]
+      - symbol: PPARGC1B
+        sources: [S3, S4]
+      - symbol: PRKN
+        sources: [S1, S3, S4, S7]
+      - symbol: SESN2
+        sources: [S3, S4]
+      - symbol: SIRT1
+        sources: [S1, S3]
+      - symbol: SIRT3
+        sources: [S3, S7]
+      - symbol: SLC40A1
+        sources: [S5, S6]
+      - symbol: SLC7A11
+        sources: [S5, S6]
+      - symbol: SLC8A1
+        sources: [S2, S5, S7]
+      - symbol: STAT3
+        sources: [S1, S3]
+      - symbol: TFAM
+        sources: [S3, S7]
+      - symbol: TFRC
+        sources: [S5, S6, S7]
+      - symbol: TLR4
+        sources: [S1, S2]
+      - symbol: TNF
+        sources: [S1, S2]
+      - symbol: TOP2B
+        sources: [S5, S7]
+  M2:
+    mechanism: "Anti-HER2 cardiac dysfunction"
+    seed_sources:
+      - id: S1
+        citation: "Eaton H, et al. Mechanisms of trastuzumab induced cardiotoxicity - is exercise a potential treatment?. Cardiooncology. 2023;9:22."
+        pmid: "37098605"
+        doi: "10.1186/s40959-023-00172-3"
+        pmcid: "PMC10127350"
+      - id: S2
+        citation: "Lin M, et al. The Research Progress of Trastuzumab-Induced Cardiotoxicity in HER-2-Positive Breast Cancer Treatment. Front Cardiovasc Med. 2021;8:821663."
+        pmid: "35097033"
+        doi: "10.3389/fcvm.2021.821663"
+        pmcid: "PMC8789882"
+      - id: S3
+        citation: "Pondé NF, et al. Twenty years of anti-HER2 therapy-associated cardiotoxicity. ESMO Open. 2016;1:e000073."
+        pmid: "27843627"
+        doi: "10.1136/esmoopen-2016-000073"
+        pmcid: "PMC5070246"
+      - id: S4
+        citation: "Rupert CE, et al. The roles of neuregulin-1 in cardiac development, homeostasis, and disease. Biomark Insights. 2015;10:1-9."
+        pmid: "25922571"
+        doi: "10.4137/bmi.s20061"
+        pmcid: "PMC4395047"
+      - id: S5
+        citation: "Wang Y, et al. Neuregulin-1, a potential therapeutic target for cardiac repair. Front Pharmacol. 2022;13:945206."
+        pmid: "36120374"
+        doi: "10.3389/fphar.2022.945206"
+        pmcid: "PMC9471952"
+      - id: S6
+        citation: "Saeed HA, et al. Anthracycline- and HER2-induced cardiotoxicity: mechanisms, current strategies, and the emerging role of dapagliflozin as a targeted cardioprotective agent. Cardiooncology. 2025;11:100."
+        pmid: "41189010"
+        doi: "10.1186/s40959-025-00386-7"
+        pmcid: "PMC12584439"
+      - id: S7
+        citation: "Tana M, et al. Cardiotoxicity of Antitumor Agents: Therapeutic Challenges in Heart Failure with Reduced and Preserved Ejection Fraction. Int J Mol Sci. 2026;27:2973."
+        pmid: "41977162"
+        doi: "10.3390/ijms27072973"
+        pmcid: "PMC13073610"
+      - id: S8
+        citation: "Szubińska-Bałaban P, et al. Genetic and Molecular Determinants of Cancer Therapy-Related Cardiovascular Toxicity. Cardiovasc Toxicol. 2026;26:113."
+        pmid: "42763821"
+        doi: "10.1007/s12012-026-10191-y"
+        pmcid: "PMC13590445"
+      - id: S9
+        citation: "Yang Z, et al. Cardiotoxicity of Epidermal Growth Factor Receptor 2-Targeted Drugs for Breast Cancer. Front Pharmacol. 2021;12:741451."
+        pmid: "34790121"
+        doi: "10.3389/fphar.2021.741451"
+        pmcid: "PMC8591078"
+      - id: S10
+        citation: "Santos Nussbaum ACA, et al. Cardiotoxicity of monoclonal antibody-based therapies in breast cancer: a contemporary narrative review. Cardiooncology. 2026;12:82."
+        pmid: "42069784"
+        doi: "10.1186/s40959-026-00490-2"
+        pmcid: "PMC13312650"
+      - id: S11
+        citation: "Vermeulen Z, et al. ErbB2 signaling at the crossing between heart failure and cancer. Basic Res Cardiol. 2016;111:60."
+        pmid: "27596216"
+        doi: "10.1007/s00395-016-0576-z"
+        pmcid: "PMC5011481"
+      - id: S12
+        citation: "Hervent AS, et al. Molecular mechanisms of cardiotoxicity induced by ErbB receptor inhibitor cancer therapeutics. Int J Mol Sci. 2012;13:12268-12286."
+        pmid: "23202898"
+        doi: "10.3390/ijms131012268"
+        pmcid: "PMC3497272"
+      - id: S13
+        citation: "Zhang X, et al. Review of the clinical status of cardiotoxicity of HER-2 positive breast cancer targeted therapeutic drugs. Front Oncol. 2024;14:1492203."
+        pmid: "39991185"
+        doi: "10.3389/fonc.2024.1492203"
+        pmcid: "PMC11842234"
+    genes:
+      - symbol: AKT1
+        sources: [S1, S2, S4, S5, S6, S7, S8, S9, S10, S11, S12]
+      - symbol: BCL2L1
+        sources: [S3, S9, S12]
+      - symbol: EGF
+        sources: [S5, S11, S12]
+      - symbol: EGFR
+        sources: [S2, S3, S5, S9, S11, S12, S13]
+      - symbol: ERBB2
+        sources: [S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13]
+      - symbol: ERBB3
+        sources: [S1, S2, S3, S4, S5, S9, S10, S11, S12, S13]
+      - symbol: ERBB4
+        sources: [S2, S3, S4, S5, S7, S9, S11, S12, S13]
+      - symbol: IGF1
+        sources: [S4, S5]
+      - symbol: MAPK1
+        sources: [S2, S5, S7, S9, S11]
+      - symbol: MAPK3
+        sources: [S1, S2, S4, S5, S6, S9, S11, S12]
+      - symbol: MMP2
+        sources: [S9, S10]
+      - symbol: MTOR
+        sources: [S1, S2, S5]
+      - symbol: NRG1
+        sources: [S1, S2, S3, S4, S5, S7, S9, S11, S12]
+      - symbol: PDK1
+        sources: [S5, S11]
+      - symbol: PTK2
+        sources: [S4, S11]
+  M3:
+    mechanism: "VEGF-pathway inhibition"
+    seed_sources:
+      - id: S1
+        citation: "Lee C, et al. Vascular endothelial growth factor signaling in health and disease: from molecular mechanisms to therapeutic perspectives. Signal Transduct Target Ther. 2025;10:170."
+        pmid: "40383803"
+        doi: "10.1038/s41392-025-02249-0"
+        pmcid: "PMC12086256"
+      - id: S2
+        citation: "Florek K, et al. Vascular Endothelial Growth Factor (VEGF) and Its Role in the Cardiovascular System. Biomedicines. 2024;12:1055."
+        pmid: "38791016"
+        doi: "10.3390/biomedicines12051055"
+        pmcid: "PMC11117514"
+      - id: S3
+        citation: "Salvatorelli E, et al. VEGF-A signalling at the vascular-immune interface: impact of anti-angiogenic agents on cardiovascular homeostasis and anthracycline-induced injury. Cardiooncology. 2026;12:136."
+        pmid: "43000491"
+        doi: "10.1186/s40959-026-00560-5"
+        pmcid: "PMC13746687"
+      - id: S4
+        citation: "Palaskas NL, et al. Onco-hypertension: hypertension induced by VEGF pathway inhibition. Front Cardiovasc Med. 2026;13:1748445."
+        pmid: "42131090"
+        doi: "10.3389/fcvm.2026.1748445"
+        pmcid: "PMC13160817"
+      - id: S5
+        citation: "Mishra A, et al. VEGF Signaling and Targeted Therapies in Cancer: Molecular Mechanisms, Clinical Applications, Resistance, and Cardiorenal Toxicities. Int J Mol Sci. 2026;27:9376."
+        pmid: "42942141"
+        doi: "10.3390/ijms27209376"
+        pmcid: "PMC13705326"
+      - id: S6
+        citation: "Nihei S, et al. VEGF inhibitor-induced proteinuria: the role of hypertension and vascular endothelial dysfunction. J Pharm Health Care Sci. 2026;12:81."
+        pmid: "42351319"
+        doi: "10.1186/s40780-026-00586-y"
+        pmcid: "PMC13560215"
+      - id: S7
+        citation: "Singh G, et al. Metabolomic Profiling of Tyrosine Kinase Inhibitor-Induced Endothelial Dysfunction and Cardiovascular Toxicity. Metabolites. 2026;16:200."
+        pmid: "41893349"
+        doi: "10.3390/metabo16030200"
+        pmcid: "PMC13029070"
+      - id: S8
+        citation: "Li Y, et al. Hypertension associated with systemic therapy for hepatocellular carcinoma and management strategies. Front Pharmacol. 2026;17:1780200."
+        pmid: "42222153"
+        doi: "10.3389/fphar.2026.1780200"
+        pmcid: "PMC13216190"
+    genes:
+      - symbol: ARNT
+        sources: [S1, S2]
+      - symbol: EDN1
+        sources: [S1, S3, S5, S6]
+      - symbol: FLT1
+        sources: [S1, S2, S3, S4, S5]
+      - symbol: FLT4
+        sources: [S1, S2, S5]
+      - symbol: HIF1A
+        sources: [S1, S3, S5]
+      - symbol: KDR
+        sources: [S1, S2, S3, S4, S5, S6, S7, S8]
+      - symbol: NRP1
+        sources: [S1, S2, S5]
+      - symbol: NRP2
+        sources: [S1, S5]
+      - symbol: PDGFRB
+        sources: [S1, S4, S5, S7]
+      - symbol: PGF
+        sources: [S1, S2, S3, S5]
+      - symbol: VEGFA
+        sources: [S1, S2, S3, S4, S5, S6, S7, S8]
+      - symbol: VEGFB
+        sources: [S1, S2, S3, S5]
+      - symbol: VEGFC
+        sources: [S1, S2, S5]
+      - symbol: VEGFD
+        sources: [S1, S2, S5]
+  M4:
+    mechanism: "Proteasome-inhibitor cardiac dysfunction"
+    seed_sources:
+      - id: S1
+        citation: "Qian X, et al. From cancer therapy to cardiac safety: the role of proteostasis in drug-induced cardiotoxicity. Front Pharmacol. 2024;15:1472387."
+        pmid: "39611175"
+        doi: "10.3389/fphar.2024.1472387"
+        pmcid: "PMC11602306"
+      - id: S2
+        citation: "Gao Y, et al. Carfilzomib in multiple myeloma: unraveling cardiac toxicities - from mechanisms to diagnosis and management. Front Pharmacol. 2025;16:1570017."
+        pmid: "40213696"
+        doi: "10.3389/fphar.2025.1570017"
+        pmcid: "PMC11983411"
+      - id: S3
+        citation: "Chatrathi AR, et al. Cardiotoxicity induced by multiple myeloma therapies: mechanistic convergence across proteasome inhibitors, CAR-T, and bispecific antibodies. Blood Cancer J. 2026;16:129."
+        pmid: "42215456"
+        doi: "10.1038/s41408-026-01481-3"
+        pmcid: "PMC13424589"
+      - id: S4
+        citation: "Zhu J, et al. The ubiquitin system in heart and vessel pathobiology: From mechanisms to therapeutic strategies. Genes Dis. 2026;13:102023."
+        pmid: "42494642"
+        doi: "10.1016/j.gendis.2025.102023"
+        pmcid: "PMC13392875"
+      - id: S5
+        citation: "García Torres JE, et al. Cardiovascular Diseases and Cancer: Convergent Proteostasis Networks at the Crossroads of Mechanisms and Therapeutic Opportunities. MedComm (2020). 2026;7:e70892."
+        pmid: "42571123"
+        doi: "10.1002/mco2.70892"
+        pmcid: "PMC13451158"
+      - id: S6
+        citation: "Li J, et al. Role of Autophagy in Proteostasis: Friend and Foe in Cardiac Diseases. Cells. 2018;7:E279."
+        pmid: "30572675"
+        doi: "10.3390/cells7120279"
+        pmcid: "PMC6316637"
+      - id: S7
+        citation: "Espitia-Corredor JA, et al. Beyond autophagic flux: selective autophagy adaptors and cargo prioritization in cardiac disease. Cardiol Plus. 2026;11:134-150."
+        pmid: "42369864"
+        doi: "10.1097/cp9.0000000000000161"
+        pmcid: "PMC13299037"
+    genes:
+      - symbol: ATF6
+        sources: [S1, S5]
+      - symbol: ATG7
+        sources: [S6, S7]
+      - symbol: BAG3
+        sources: [S3, S4, S7]
+      - symbol: CRYAB
+        sources: [S6, S7]
+      - symbol: EIF2AK3
+        sources: [S1, S5, S6]
+      - symbol: EIF2S1
+        sources: [S1, S5, S6]
+      - symbol: HSP90AA1
+        sources: [S1, S2, S3, S5]
+      - symbol: HSPA5
+        sources: [S1, S2, S3, S5, S6, S7]
+      - symbol: MAP1LC3B
+        sources: [S3, S4, S7]
+      - symbol: MAP3K7
+        sources: [S4, S7]
+      - symbol: MDM2
+        sources: [S4, S5]
+      - symbol: NFKB1
+        sources: [S2, S4, S5, S7]
+      - symbol: SQSTM1
+        sources: [S6, S7]
+      - symbol: ULK1
+        sources: [S1, S6, S7]
+      - symbol: XBP1
+        sources: [S1, S5]
+overlaps_resolved:
+  - symbol: AKT1
+    claimed_by: [M2, M3, M4]
+    assigned_to: M2
+    reason: "named by 11 M2 sources vs 4 M3, 3 M4"
+  - symbol: EGFR
+    claimed_by: [M2, M3]
+    assigned_to: M2
+    reason: "named by 7 M2 sources vs 2 M3"
+  - symbol: ERBB2
+    claimed_by: [M1, M2]
+    assigned_to: M2
+    reason: "named by 13 M2 sources vs 2 M1"
+  - symbol: HSPA5
+    claimed_by: [M1, M4]
+    assigned_to: M4
+    reason: "named by 6 M4 sources vs 2 M1"
+  - symbol: MAP1LC3B
+    claimed_by: [M1, M4]
+    assigned_to: M4
+    reason: "named by 3 M4 sources vs 2 M1"
+  - symbol: MAPK1
+    claimed_by: [M2, M3]
+    assigned_to: M2
+    reason: "named by 5 M2 sources vs 3 M3"
+  - symbol: MFN2
+    claimed_by: [M1, M4]
+    assigned_to: none
+    reason: "tied (2 M1 sources, 2 M4 sources); construction rule 4 drops a tied gene from both modules"
+  - symbol: MTOR
+    claimed_by: [M2, M4]
+    assigned_to: M2
+    reason: "named by 3 M2 sources vs 2 M4"
+  - symbol: NFE2L2
+    claimed_by: [M1, M4]
+    assigned_to: none
+    reason: "tied (2 M1 sources, 2 M4 sources); construction rule 4 drops a tied gene from both modules"
+  - symbol: NFKB1
+    claimed_by: [M3, M4]
+    assigned_to: M4
+    reason: "named by 4 M4 sources vs 3 M3"
+  - symbol: NOS3
+    claimed_by: [M2, M3]
+    assigned_to: none
+    reason: "tied (4 M2 sources, 4 M3 sources); construction rule 4 drops a tied gene from both modules"
+  - symbol: PINK1
+    claimed_by: [M1, M4]
+    assigned_to: none
+    reason: "tied (3 M1 sources, 3 M4 sources); construction rule 4 drops a tied gene from both modules"
+  - symbol: PPARGC1A
+    claimed_by: [M1, M2, M3]
+    assigned_to: M1
+    reason: "named by 4 M1 sources vs 2 M2, 2 M3"
+  - symbol: PRKN
+    claimed_by: [M1, M4]
+    assigned_to: M1
+    reason: "named by 4 M1 sources vs 3 M4"
+  - symbol: SRC
+    claimed_by: [M2, M3]
+    assigned_to: none
+    reason: "tied (2 M2 sources, 2 M3 sources); construction rule 4 drops a tied gene from both modules"
+  - symbol: VEGFA
+    claimed_by: [M2, M3]
+    assigned_to: M3
+    reason: "named by 8 M3 sources vs 2 M2"
+notes: |
+  HOW THE MODULES WERE BUILT
+  Every gene here was taken from the text of the named reviews, not from background
+  knowledge. Full-text JATS XML for each review was retrieved from Europe PMC. Reference
+  lists and back matter were stripped. Candidate gene mentions were then found by
+  dictionary matching against the HGNC complete set (approved symbols plus approved
+  alias_symbol and prev_symbol entries, protein-coding genes only), so every symbol in a
+  module corresponds to a token the review itself wrote. Greek letters and hyphenation were
+  normalised (PGC-1alpha -> PPARGC1A, Top2beta -> TOP2B, eNOS -> NOS3 and so on). Every gene
+  that survived the two-source rule was then read back in its source sentences and kept only
+  if the sentence is a mechanism statement; the rejections are listed below. Counts of
+  "sources" are numbers of distinct seed reviews, never numbers of mentions.
+
+  THERAPY EXCLUSION
+  Nothing about treating or preventing these toxicities was allowed to influence membership.
+  Sections whose headings concern therapy, prevention, cardioprotection, management,
+  diagnosis, biomarkers, imaging, surveillance, risk scores, epidemiology or future
+  directions were removed before scanning, and individual sentences that survived that filter
+  but are about a protective agent were rejected by hand (logged below). No cardioprotective
+  drug was looked up at any point.
+
+  MODULE SIZES
+  M1 34 genes from 7 reviews. M2 15 genes from 13 reviews. M4 15 genes from 7 reviews.
+  M3 reached only 14 genes from 8 reviews and is therefore BELOW the minimum of 15. This is
+  reported rather than padded. 20 genes met the two-source rule inside M3, but the no-overlap
+  rule then moved AKT1, MAPK1 and EGFR to M2 and NFKB1 to M4 (all on source-count majority),
+  and dropped NOS3 and SRC from every module as ties. The majority rule is sensitive to how
+  many seed reviews a module has, and M2 has 13 reviews against M3's 8, so shared signalling
+  nodes systematically migrate towards M2. NOS3 is the most consequential loss: it is named
+  by 4 M2 reviews and 4 M3 reviews, an exact tie, so construction rule 4 removed it from
+  both even though endothelial nitric oxide is listed as core M3 biology.
+
+  M2 and M3 each needed more seed reviews than were first collected. M2 stood at 13 genes
+  with 6 reviews and at 13 again with 8; four further anti-HER2 / NRG1-ErbB cardiac reviews
+  (S9-S13, found by topic search, not by gene yield) brought it to 15. For M3, S7 and S8 were
+  added for the same reason. Every added source is a genuine mechanism review for that
+  module; none was chosen by inspecting which genes it would contribute.
+
+  SOURCES COVERING MORE THAN ONE MECHANISM
+  PMC12584439 covers both anthracycline and HER2 biology and is used twice, restricted by
+  section heading: its topoisomerase/oxidative/mitochondrial/iron/calcium/epigenetic sections
+  feed M1 (as S7) and its HER2 and neuregulin sections feed M2 (as S6). PMC13073610 and
+  PMC13590445 feed M2 only through their "HER2/ErbB2 Signaling Disruption" and
+  "HER2 Inhibitors" sections. PMC11602306 (M4 S1) had its drug-specific subsections for
+  doxorubicin, TKIs, bevacizumab, cisplatin, 5-FU and celastrol removed; PMC13424589 (M4 S3)
+  had its CAR-T and bispecific-antibody sections removed; PMC13746687 (M3 S3) had its
+  anthracycline sections removed. Those restrictions are why some genes present in a document
+  do not appear in the module it feeds.
+
+  JUDGEMENT CALLS ON SYMBOLS
+  - eIF2-alpha is written "eIF2A" by M4 S1 and "eIF2alpha" by M4 S5 and S6. The HGNC symbol
+    for that subunit is EIF2S1; HGNC EIF2A is a different gene. Recorded as EIF2S1.
+  - "LC3" was resolved to MAP1LC3B, the cardiac isoform the reviews are describing; LC3A was
+    not separately named.
+  - AKT -> AKT1, ERK/ERK2 -> MAPK1, ERK1 -> MAPK3, p38 -> MAPK14, JNK -> MAPK8,
+    Drp1 -> DNM1L, SERCA/SERCA2a -> ATP2A2, NCX -> SLC8A1, PGC-1alpha -> PPARGC1A,
+    Parkin -> PRKN, Nix -> BNIP3L, FPN -> SLC40A1, TfR1 -> TFRC, HSPB5/CryAB -> CRYAB.
+  - Complexes and families named without a subunit were NOT converted to a symbol and are
+    absent: AMPK, PI3K, PKC, PKA, NADPH oxidase, soluble guanylate cyclase, the proteasome
+    itself, "ErbB" used for the receptor family, "IL-1" used for the family.
+  - Alias collisions were resolved by hand where HGNC maps one string to two genes:
+    NRF2 -> NFE2L2 (not GABPA), iNOS -> NOS2 (not ISYNA1), YAP -> YAP1 (not YY1AP1),
+    DRP1 -> DNM1L (not UTRN), p38 -> MAPK14 (not AHSA1), HIF-1 -> HIF1A (not SETD2).
+
+  NO PROTEASOME SUBUNIT GENES ARE IN M4
+  The reviews seeding M4 describe proteasome inhibition in words ("the 20S proteasome",
+  "chymotrypsin-like activity") and essentially never name a subunit gene. Across the seven
+  M4 reviews the only subunit symbol written anywhere is PSMB10, once, in a single review;
+  PSMB5 is never written, nor is any "beta5" spelled out. So no PSM* gene reaches two sources
+  and none is included. Adding PSMB5 would have been exactly the kind of plausible-looking
+  invention the brief forbids.
+
+  GENES REJECTED AFTER READING THE SENTENCE (whole gene)
+  M2 GDF15: both sources name GDF-15 only as a circulating biomarker.
+  M3 ACE: abbreviation list plus ACE-inhibitor therapy sentences.
+  M3 AXL, KIT, MET, RET: named only inside lists of the additional kinases a multi-target TKI
+    blocks; off-target kinase pharmacology, not VEGF-pathway biology.
+  M3 KCNH2: named only as an off-target channel for QTc prolongation, with the source stating
+    explicitly that the effect is not VEGFR-mediated.
+  M3 CTSG: false positive, the tokens were "C-gamma"/"Cgamma" meaning phospholipase C-gamma.
+  M3 ADAM17: false positive, both tokens were "TACE" (transarterial chemoembolisation).
+  M3 ICAM1, VCAM1: one source names them for VEGF-pathway inhibition, the other for immune
+    checkpoint inhibitors.
+  M3 CRP: biomarker contexts only.
+  M3 CD4, CD8A, IL1B, IL6, MMP9, STAT3, TGFB1, TNF: supported only by the immune and fibrosis
+    tables that describe anthracycline-induced cardiotoxicity inside PMC13746687, or by
+    non-cardiac disease sections (endometriosis, rheumatoid arthritis, diabetic retinopathy)
+    of PMC12086256.
+  M3 SP1: only one source names Sp1 in a VEGF-promoter context.
+  M3 EIF2A/EIF2AK3: single metabolomics source; ER-stress biology sits in M4.
+
+  SUPPORTS REJECTED (gene kept, that one source not counted)
+  M1 FAS in S4: the token was "FAs", fatty acids.
+  M2 NOS3 and PPARGC1A in S2: the only occurrence is a metformin cardioprotection sentence.
+  M2 IL6 in S9: a table of candidate protective agents. M2 TNNT2 in S9 and S13: troponin-assay
+    biomarker context. Both genes then fell below two sources and are absent.
+  M4 PTEN in S4: the token came from the full name "PTEN-induced putative kinase 1" (PINK1);
+    PTEN then fell below two sources.
+  M4 TNF, IL1B, IL6 in S1: rows of a drug-summary table. M4 TNF, IL1B in S3: CAR-T and
+    bispecific cytokine sections. All three genes then fell below two sources.
+  M4 MTOR in S7: a sentence about mTOR inhibition as a therapy.
+  M4 UBD in S7: "UBD" there means ubiquitin-binding domain, not the UBD gene; UBD then fell
+    below two sources.
+  M4 HIF1A in S6: listed only as a generic mTOR-independent autophagy regulator.
+
+  TIES DROPPED FROM BOTH MODULES (construction rule 4)
+  NOS3 (4 M2 vs 4 M3), PINK1 (3 M1 vs 3 M4), MFN2 (2 M1 vs 2 M4), NFE2L2 (2 M1 vs 2 M4),
+  SRC (2 M2 vs 2 M3). Each is real biology for both modules; the rule removes them rather
+  than assigning them arbitrarily.
+
+  ACCESS AND COVERAGE LIMITS
+  Only open-access full text indexed in Europe PMC was used, so subscription-only mechanism
+  reviews could not be read and are not cited. Detection depends on a review writing a symbol
+  or a recognised alias: a review that only writes "endothelial nitric oxide synthase" with no
+  abbreviation, or only "the transferrin receptor", contributes nothing for that gene. This
+  under-counts older and more narrative reviews. Some supports come from figure legends and
+  abbreviation lists, which are the review's own text and were accepted; where an abbreviation
+  list was the gene's only appearance in a biomarker or clinical context it was rejected, as
+  logged above. Non-coding genes were excluded from the dictionary, so the microRNAs these
+  reviews discuss at length (miR-23a, miR-320a and others) are not represented.

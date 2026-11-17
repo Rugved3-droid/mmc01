@@ -90,3 +90,82 @@ knowledge that could bias how M1 and M2 gene sets are drawn. Recorded as an open
 issue before module construction begins. No modules have been built yet.
 
 **Status: paused before module construction, pending a decision on findings 4 and 5.**
+
+---
+
+## 2026-11-17 — Run 1: modules, graph, proximity, Gates 0/1/3/4, commitment
+
+**Modules built blind.** Per the decision recorded above, module construction was
+delegated to a builder given only the section 4 rules and the index agents, with
+no access to `sealed/`, to this RUNLOG, or to the analysis conversation. It never
+looked up a cardioprotective drug.
+
+| module | seed sources | declared | two-source | HGNC-mapped | in LCC700 | mapping loss |
+|---|---|---|---|---|---|---|
+| M1 anthracycline | 7 | 34 | 34 | 34 | 34 | 0.000 |
+| M2 anti-HER2 | 13 | 15 | 15 | 15 | 15 | 0.000 |
+| M3 VEGF-pathway | 8 | 14 | 14 | 14 | **13** | 0.000 |
+| M4 proteasome | 7 | 15 | 15 | 15 | 15 | 0.000 |
+
+`config/modules.yaml` sha256 `95f84b7b46e8d3ae08afe8d0b03ba1913c7c3906f315b5e2f060d8ccf8ba2c65`.
+All 35 seed-source entries were independently re-verified against Europe PMC by
+PMID: every one is a real, review-typed article with a matching year. Zero
+fabricated references. One review (PMID 41189010) seeds both M1 and M2; recorded
+because M1 vs M2 is the comparison of interest.
+
+**Known weaknesses in module construction, recorded and NOT repaired:**
+- M3 reached only 13 genes in the LCC, below the section 4 minimum of 15.
+- Section 4 rule 4 (resolve overlaps by majority of seed sources) is biased by
+  unequal source counts: M2 had 13 reviews and M3 had 8, so shared signalling
+  nodes migrated systematically to M2 (AKT1, MAPK1, EGFR), and NOS3 — endothelial
+  nitric oxide synthase, named in M3's own core biology — was an exact 4-4 tie and
+  was dropped from both modules. This is a flaw in the protocol's rule, found by
+  executing it. It was not corrected, because correcting it after seeing the
+  module contents is a degree of freedom the protocol forbids.
+- No proteasome subunit gene is in M4. Across all seven M4 reviews only PSMB10 is
+  ever written as a symbol (once). PSMB5 appears nowhere. Adding it would have
+  been fabrication.
+
+**Commitment written (protocol 2.2).** `results/predictions.json` sha256
+`56018d7324ebf2543f850f11e4669cab4124a2d35f03349a3c55e0f2a34ee63a`, 64 pairs
+(16 protectants x 4 modules) at STRING 700, seed 20261117, 1000 permutations.
+25 of 64 predicted "matched" at the pre-specified z < -1.0 cutoff.
+`sealed/` has not been read.
+
+### Gate results (STRING 700, pre-unsealing)
+
+| gate | verdict | numbers |
+|---|---|---|
+| 0 module viability | **CONDITIONAL** | M3 = 13 genes (< 15); 3 of 4 modules survive |
+| 1 target coverage | **CONDITIONAL** | 16/16 protectants mapped; median direction coverage 0.42 (< 0.5) |
+| 3 positive control | **PASS** | dexrazoxane-M1 z = -2.651; top-quartile cutoff -1.602; 4.7th percentile of 64 |
+| 4 negative control | **FAIL** (pair-counting) / CONDITIONAL (drug-counting) | 2 violations, both levothyroxine: M2 z = -2.645, M3 z = -3.125 |
+
+**Gate 3 passed decisively.** The method recovers the single clearest case in its
+own domain. Dexrazoxane against the anthracycline module sits in the most extreme
+5% of all 64 computed z-scores.
+
+**Gate 4 failed, and the failure is informative.** Both violations are the same
+drug. Levothyroxine has **no gene in common** with M2 or M3, yet scores z = -2.65
+and -3.13 against them, and is negative against all four modules. Its DGIdb
+targets are dominated by broad transcriptional regulators — THRA, THRB, PPARG,
+NFE2L2, AHR — plus the core cardiac transcription factor NKX2-5. The degree-matched
+null corrects for how many edges a gene has, but not for a transcription factor's
+regulatory reach, so a drug acting on cardiac transcription scores "close" to any
+cardiac module. The other four controls (loratadine, omeprazole, montelukast,
+ranitidine) are clean.
+
+**Protocol ambiguity, flagged not resolved.** Section 7 says "No negative-control
+drug may score in the top quartile against any module. One violation is
+CONDITIONAL... two or more is FAIL." Whether a violation is a drug or a
+drug-module pair was not specified, and the two readings give FAIL and CONDITIONAL
+respectively. Both are reported in `results/gates.json`; the stricter reading is
+carried as the headline. The choice was not pre-specified and is disclosed.
+
+**Also recorded:** levothyroxine met the section 5 selection criterion as written
+(no cardioprotective mechanism, no cardio-oncology trial) but is not
+pharmacologically inert in the heart. That is a flaw in the negative-control set,
+discovered by execution. It was not swapped out.
+
+**Status: Gate 4 FAIL. Under section 7 a FAIL stops the study. Paused before
+unsealing, pending a decision.**

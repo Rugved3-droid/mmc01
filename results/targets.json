@@ -1,0 +1,3072 @@
+{
+ "threshold_for_lcc_filter": 700,
+ "protectants": {
+  "dexrazoxane": {
+   "accepted_spellings": [
+    "DEXRAZOXANE"
+   ],
+   "n_targets_mapped": 5,
+   "n_targets_in_lcc": 5,
+   "targets_in_lcc": [
+    "CP",
+    "DPYS",
+    "MAPK8",
+    "TOP2A",
+    "TOP2B"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.4,
+   "provenance": {
+    "CP": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "DPYS": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "MAPK8": [
+     [
+      "NCI",
+      "NULL"
+     ],
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "TOP2A": [
+     [
+      "NCI",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ]
+    ],
+    "TOP2B": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "enalapril": {
+   "accepted_spellings": [
+    "ENALAPRIL",
+    "ENALAPRIL MALEATE",
+    "ENALAPRILAT",
+    "ENALAPRILAT ANHYDROUS"
+   ],
+   "n_targets_mapped": 19,
+   "n_targets_in_lcc": 19,
+   "targets_in_lcc": [
+    "ACE",
+    "ADRB2",
+    "AGT",
+    "APEX1",
+    "BDKRB2",
+    "CCN2",
+    "CYP3A4",
+    "DAPK3",
+    "DPP4",
+    "DSP",
+    "GSR",
+    "HSPA4",
+    "KDM4A",
+    "MAPK8",
+    "NOS1",
+    "PCGF3",
+    "PDE5A",
+    "PNPT1",
+    "TP53"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.105,
+   "provenance": {
+    "ACE": [
+     [
+      "NCI",
+      "NULL"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ADRB2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "AGT": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "APEX1": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "BDKRB2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CCN2": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP3A4": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "DAPK3": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ],
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "DPP4": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "DSP": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "GSR": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "HSPA4": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "KDM4A": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "MAPK8": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "NOS1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "PCGF3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "PDE5A": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "PNPT1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "TP53": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ]
+   },
+   "note": "enalaprilat included: active moiety of enalapril"
+  },
+  "lisinopril": {
+   "accepted_spellings": [
+    "LISINOPRIL",
+    "LISINOPRIL HYDRATE",
+    "LISINOPRIL ANHYDROUS"
+   ],
+   "n_targets_mapped": 9,
+   "n_targets_in_lcc": 9,
+   "targets_in_lcc": [
+    "ACE",
+    "ACE2",
+    "AGT",
+    "BDKRB2",
+    "DAPK3",
+    "EHMT2",
+    "MMP3",
+    "SHBG",
+    "VIP"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.222,
+   "provenance": {
+    "ACE": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ]
+    ],
+    "ACE2": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ]
+    ],
+    "AGT": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "BDKRB2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "DAPK3": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "EHMT2": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "MMP3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SHBG": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "VIP": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ]
+   },
+   "note": "excluded: LISINOPRIL-TRYPTOPHAN (distinct entity)"
+  },
+  "candesartan": {
+   "accepted_spellings": [
+    "CANDESARTAN",
+    "CANDESARTAN CILEXETIL"
+   ],
+   "n_targets_mapped": 15,
+   "n_targets_in_lcc": 14,
+   "targets_in_lcc": [
+    "ACADM",
+    "AGTR1",
+    "AR",
+    "CYP11B2",
+    "CYP3A4",
+    "DOT1L",
+    "EDN1",
+    "GPR83",
+    "KAT2A",
+    "KCNK3",
+    "PLEKHJ1",
+    "SH2B3",
+    "SULT1C3",
+    "USP1"
+   ],
+   "dropped_not_in_lcc": [
+    "VDR"
+   ],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.143,
+   "provenance": {
+    "ACADM": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ],
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "AGTR1": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ]
+    ],
+    "AR": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP11B2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CYP3A4": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "DOT1L": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "EDN1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "GPR83": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "KAT2A": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "KCNK3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "PLEKHJ1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SH2B3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SULT1C3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "USP1": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "valsartan": {
+   "accepted_spellings": [
+    "VALSARTAN"
+   ],
+   "n_targets_mapped": 3,
+   "n_targets_in_lcc": 3,
+   "targets_in_lcc": [
+    "ACADM",
+    "AGTR1",
+    "SLCO1B1"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.667,
+   "provenance": {
+    "ACADM": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ],
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "AGTR1": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "SLCO1B1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "carvedilol": {
+   "accepted_spellings": [
+    "CARVEDILOL"
+   ],
+   "n_targets_mapped": 26,
+   "n_targets_in_lcc": 25,
+   "targets_in_lcc": [
+    "ABCB1",
+    "ABCB7",
+    "ABO",
+    "ABR",
+    "ACAA1",
+    "ADRA1A",
+    "ADRA1B",
+    "ADRA1D",
+    "ADRB1",
+    "ADRB2",
+    "ADRB3",
+    "BAX",
+    "BAZ2B",
+    "CYP1A2",
+    "CYP2D6",
+    "DRD1",
+    "GJA1",
+    "GSR",
+    "LEP",
+    "NOS1",
+    "PPARA",
+    "RYR2",
+    "SLCO1B1",
+    "UGT2B7",
+    "XDH"
+   ],
+   "dropped_not_in_lcc": [
+    "KDM4E"
+   ],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.44,
+   "provenance": {
+    "ABCB1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ABCB7": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ABO": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ABR": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ACAA1": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ADRA1A": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "ADRA1B": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "ADRA1D": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "ADRB1": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "ADRB2": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "NCI",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "ADRB3": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "BAX": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "BAZ2B": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP1A2": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP2D6": [
+     [
+      "FDA",
+      "NULL"
+     ]
+    ],
+    "DRD1": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "GJA1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "GSR": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "LEP": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "NOS1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "PPARA": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "RYR2": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "SLCO1B1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT2B7": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "XDH": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "metoprolol": {
+   "accepted_spellings": [
+    "METOPROLOL",
+    "METOPROLOL TARTRATE",
+    "METOPROLOL SUCCINATE",
+    "METOPROLOL FUMARATE"
+   ],
+   "n_targets_mapped": 15,
+   "n_targets_in_lcc": 13,
+   "targets_in_lcc": [
+    "ABO",
+    "ABR",
+    "ACE",
+    "ADRA1D",
+    "ADRA2C",
+    "ADRB1",
+    "CYP2D6",
+    "NPY1R",
+    "OR10P1",
+    "PPARA",
+    "SLC25A31",
+    "SLC4A1",
+    "SNX9"
+   ],
+   "dropped_not_in_lcc": [
+    "LRRC15",
+    "ZMAT4"
+   ],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.231,
+   "provenance": {
+    "ABO": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ABR": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ACE": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ADRA1D": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "ADRA2C": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ADRB1": [
+     [
+      "DTC",
+      "NULL"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "CYP2D6": [
+     [
+      "FDA",
+      "NULL"
+     ]
+    ],
+    "NPY1R": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "OR10P1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "PPARA": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SLC25A31": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SLC4A1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SNX9": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "nebivolol": {
+   "accepted_spellings": [
+    "NEBIVOLOL",
+    "NEBIVOLOL HYDROCHLORIDE"
+   ],
+   "n_targets_mapped": 6,
+   "n_targets_in_lcc": 6,
+   "targets_in_lcc": [
+    "ABO",
+    "ABR",
+    "ACAA1",
+    "ADRB1",
+    "ADRB2",
+    "CYP2D6"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.833,
+   "provenance": {
+    "ABO": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ABR": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ACAA1": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ADRB1": [
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ]
+    ],
+    "ADRB2": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "CYP2D6": [
+     [
+      "PharmGKB",
+      "NULL"
+     ],
+     [
+      "FDA",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "bisoprolol": {
+   "accepted_spellings": [
+    "BISOPROLOL",
+    "BISOPROLOL FUMARATE"
+   ],
+   "n_targets_mapped": 4,
+   "n_targets_in_lcc": 4,
+   "targets_in_lcc": [
+    "ABO",
+    "ACY3",
+    "ADRB1",
+    "KCNH2"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.5,
+   "provenance": {
+    "ABO": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "ACY3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ADRB1": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "DTC",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "KCNH2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ]
+   },
+   "note": "excluded: 'bisoprolol fumarate / perindopril arginine' (combination)"
+  },
+  "spironolactone": {
+   "accepted_spellings": [
+    "SPIRONOLACTONE"
+   ],
+   "n_targets_mapped": 16,
+   "n_targets_in_lcc": 16,
+   "targets_in_lcc": [
+    "ABCB1",
+    "ADD1",
+    "ADIPOQ",
+    "AR",
+    "CCN2",
+    "CYP11B2",
+    "CYP1A1",
+    "CYP1A2",
+    "CYP1B1",
+    "CYP7B1",
+    "NOS3",
+    "NR1I2",
+    "NR3C2",
+    "PPARG",
+    "THRB",
+    "TNF"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.062,
+   "provenance": {
+    "ABCB1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ],
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "ADD1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ADIPOQ": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "AR": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CCN2": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP11B2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CYP1A1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP1A2": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP1B1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP7B1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "NOS3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "NR1I2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "NR3C2": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ]
+    ],
+    "PPARG": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "THRB": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "TNF": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "eplerenone": {
+   "accepted_spellings": [
+    "EPLERENONE"
+   ],
+   "n_targets_mapped": 2,
+   "n_targets_in_lcc": 2,
+   "targets_in_lcc": [
+    "ATP1A1",
+    "NR3C2"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.5,
+   "provenance": {
+    "ATP1A1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "NR3C2": [
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "atorvastatin": {
+   "accepted_spellings": [
+    "ATORVASTATIN",
+    "ATORVASTATIN CALCIUM",
+    "ATORVASTATIN CALCIUM TRIHYDRATE"
+   ],
+   "n_targets_mapped": 55,
+   "n_targets_in_lcc": 52,
+   "targets_in_lcc": [
+    "ABCA1",
+    "ABCB1",
+    "ACE",
+    "AGTR1",
+    "APOA5",
+    "APOB",
+    "BDKRB2",
+    "BGLAP",
+    "CACNA1S",
+    "CD40LG",
+    "CXCL10",
+    "CYP2C19",
+    "CYP3A4",
+    "CYP3A7",
+    "DRD3",
+    "FAS",
+    "FGF2",
+    "HLA-DRB1",
+    "HMGCR",
+    "HSPD1",
+    "IFNL3",
+    "IL2RA",
+    "ITGAM",
+    "LEPR",
+    "LIPC",
+    "MTHFR",
+    "MYLIP",
+    "NFE2L2",
+    "NOS1",
+    "NOS3",
+    "NR1I2",
+    "PIK3CG",
+    "PLAT",
+    "POR",
+    "PPARD",
+    "PRDM1",
+    "PRDM16",
+    "RYR1",
+    "SLCO1B1",
+    "SOAT1",
+    "TFPI",
+    "TGM2",
+    "TNF",
+    "UGT1A1",
+    "UGT1A10",
+    "UGT1A3",
+    "UGT1A4",
+    "UGT1A5",
+    "UGT1A6",
+    "UGT1A7",
+    "UGT1A8",
+    "UGT1A9"
+   ],
+   "dropped_not_in_lcc": [
+    "CLMN",
+    "IFNL4",
+    "MAPK10"
+   ],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.038,
+   "provenance": {
+    "ABCA1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ABCB1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "ACE": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "AGTR1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ],
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "APOA5": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "APOB": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "BDKRB2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "BGLAP": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CACNA1S": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CD40LG": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CXCL10": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP2C19": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CYP3A4": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP3A7": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "DRD3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "FAS": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "FGF2": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "HLA-DRB1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "HMGCR": [
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "PharmGKB",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ]
+    ],
+    "HSPD1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "IFNL3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "IL2RA": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "ITGAM": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "LEPR": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "LIPC": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "MTHFR": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "MYLIP": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "NFE2L2": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "NOS1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "NOS3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "NR1I2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "PIK3CG": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "PLAT": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "POR": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "PPARD": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "PRDM1": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "PRDM16": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "RYR1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SLCO1B1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "SOAT1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "TFPI": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "TGM2": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "TNF": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT1A1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT1A10": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT1A3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT1A4": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT1A5": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT1A6": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT1A7": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT1A8": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "UGT1A9": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ]
+   },
+   "note": "excluded: 2-hydroxyatorvastatin (metabolite), 'Atorvastatin lactole derivative 1', 'amlodipine / atorvastatin / perindopril arginine' (combination)"
+  },
+  "rosuvastatin": {
+   "accepted_spellings": [
+    "ROSUVASTATIN",
+    "ROSUVASTATIN CALCIUM"
+   ],
+   "n_targets_mapped": 23,
+   "n_targets_in_lcc": 23,
+   "targets_in_lcc": [
+    "ABCA1",
+    "ABCB11",
+    "ABCC2",
+    "APOA5",
+    "CACNA1S",
+    "CETP",
+    "CRP",
+    "CYP3A4",
+    "FMO3",
+    "FOXA3",
+    "HLA-DRB1",
+    "HMGCR",
+    "HNF1A",
+    "HNF4A",
+    "KIF6",
+    "LDLR",
+    "LPA",
+    "PRDM1",
+    "RXRA",
+    "SCAP",
+    "SLC10A1",
+    "SLCO1B1",
+    "USP24"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [
+    "CYP3A"
+   ],
+   "direction_coverage": 0.087,
+   "provenance": {
+    "ABCA1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ABCB11": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ABCC2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "APOA5": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CACNA1S": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CETP": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CRP": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CYP3A4": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "FMO3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "FOXA3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "HLA-DRB1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "HMGCR": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "PharmGKB",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ]
+    ],
+    "HNF1A": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "HNF4A": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "KIF6": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "LDLR": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "LPA": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "PRDM1": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "RXRA": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SCAP": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SLC10A1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SLCO1B1": [
+     [
+      "FDA",
+      "NULL"
+     ]
+    ],
+    "USP24": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "sacubitril/valsartan": {
+   "accepted_spellings": [
+    "SACUBITRIL",
+    "SACUBITRILAT",
+    "SACUBITRIL/VALSARTAN",
+    "VALSARTAN"
+   ],
+   "n_targets_mapped": 5,
+   "n_targets_in_lcc": 5,
+   "targets_in_lcc": [
+    "ACADM",
+    "AGTR1",
+    "DAP",
+    "MME",
+    "SLCO1B1"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.8,
+   "provenance": {
+    "ACADM": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ],
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "AGTR1": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "DAP": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "MME": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ]
+    ],
+    "SLCO1B1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ]
+   },
+   "note": "union of both components per section 5 rule 3; flagged combination"
+  },
+  "dapagliflozin": {
+   "accepted_spellings": [
+    "DAPAGLIFLOZIN",
+    "DAPAGLIFLOZIN PROPANEDIOL",
+    "DAPAGLIFLOZIN PROPYLENE GLYCOL"
+   ],
+   "n_targets_mapped": 4,
+   "n_targets_in_lcc": 4,
+   "targets_in_lcc": [
+    "CD3D",
+    "CD3E",
+    "SLC5A2",
+    "SLC5A4"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.75,
+   "provenance": {
+    "CD3D": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "CD3E": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "SLC5A2": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ]
+    ],
+    "SLC5A4": [
+     [
+      "TTD",
+      "NULL"
+     ]
+    ]
+   },
+   "note": "excluded: 'Dapagliflozin Propanediol; Saxagliptin Hydrochloride' (combination)"
+  },
+  "empagliflozin": {
+   "accepted_spellings": [
+    "EMPAGLIFLOZIN"
+   ],
+   "n_targets_mapped": 4,
+   "n_targets_in_lcc": 4,
+   "targets_in_lcc": [
+    "CD3D",
+    "CD3E",
+    "SLC5A2",
+    "SLC5A4"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.75,
+   "provenance": {
+    "CD3D": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "CD3E": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "SLC5A2": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "SLC5A4": [
+     [
+      "TTD",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  }
+ },
+ "negative_controls": {
+  "loratadine": {
+   "accepted_spellings": [
+    "LORATADINE"
+   ],
+   "n_targets_mapped": 18,
+   "n_targets_in_lcc": 16,
+   "targets_in_lcc": [
+    "AR",
+    "CCL17",
+    "CD28",
+    "CYP2C19",
+    "CYP2C9",
+    "CYP2D6",
+    "CYP3A5",
+    "GMNN",
+    "HIF1A",
+    "HRH1",
+    "KCNA5",
+    "MAPK1",
+    "MPO",
+    "NPSR1",
+    "TAC1",
+    "TSHR"
+   ],
+   "dropped_not_in_lcc": [
+    "AMD1",
+    "SLC6A15"
+   ],
+   "unmapped_by_hgnc": [
+    "ATP5BL2"
+   ],
+   "direction_coverage": 0.125,
+   "provenance": {
+    "AR": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CCL17": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CD28": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "CYP2C19": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2C9": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2D6": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP3A5": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "GMNN": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "HIF1A": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "HRH1": [
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "KCNA5": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "MAPK1": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "MPO": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "NPSR1": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "TAC1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "TSHR": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "omeprazole": {
+   "accepted_spellings": [
+    "OMEPRAZOLE",
+    "OMEPRAZOLE SODIUM",
+    "OMEPRAZOLE MAGNESIUM"
+   ],
+   "n_targets_mapped": 35,
+   "n_targets_in_lcc": 32,
+   "targets_in_lcc": [
+    "ABCB1",
+    "AHR",
+    "ATP4A",
+    "ATP4B",
+    "BAZ2B",
+    "BUB1",
+    "CBX1",
+    "CSF2",
+    "CXCL8",
+    "CYP1A2",
+    "CYP2C19",
+    "CYP2C9",
+    "CYP2D6",
+    "CYP3A4",
+    "CYP3A5",
+    "EHMT2",
+    "G6PD",
+    "GSTP1",
+    "HDC",
+    "HEXB",
+    "HPGD",
+    "HSPB1",
+    "KDM4A",
+    "MAPT",
+    "NFE2L2",
+    "NR1I2",
+    "PLK1",
+    "SLC22A6",
+    "SLC22A8",
+    "TAC1",
+    "TNF",
+    "VIP"
+   ],
+   "dropped_not_in_lcc": [
+    "ADAMTSL4-AS1",
+    "KDM4E",
+    "VDR"
+   ],
+   "unmapped_by_hgnc": [
+    "CATHL1L",
+    "CYP3A",
+    "NULL"
+   ],
+   "direction_coverage": 0.094,
+   "provenance": {
+    "ABCB1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "AHR": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ATP4A": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ]
+    ],
+    "ATP4B": [
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "BAZ2B": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "BUB1": [
+     [
+      "GuideToPharmacology",
+      "activator"
+     ]
+    ],
+    "CBX1": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CSF2": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CXCL8": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP1A2": [
+     [
+      "DTC",
+      "NULL"
+     ],
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CYP2C19": [
+     [
+      "FDA",
+      "NULL"
+     ],
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2C9": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2D6": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP3A4": [
+     [
+      "DTC",
+      "NULL"
+     ],
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CYP3A5": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "EHMT2": [
+     [
+      "DTC",
+      "NULL"
+     ],
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "G6PD": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "GSTP1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "HDC": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "HEXB": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "HPGD": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "HSPB1": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "KDM4A": [
+     [
+      "DTC",
+      "NULL"
+     ],
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "MAPT": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "NFE2L2": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "NR1I2": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "PLK1": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "SLC22A6": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "SLC22A8": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "TAC1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "TNF": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "VIP": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "levothyroxine": {
+   "accepted_spellings": [
+    "LEVOTHYROXINE",
+    "LEVOTHYROXINE SODIUM"
+   ],
+   "n_targets_mapped": 16,
+   "n_targets_in_lcc": 16,
+   "targets_in_lcc": [
+    "AHR",
+    "F9",
+    "IL4",
+    "IRS4",
+    "NFE2L2",
+    "NKX2-5",
+    "NOX3",
+    "PAX8",
+    "PPARG",
+    "SERPINE1",
+    "SLCO1B1",
+    "TBL1X",
+    "THBD",
+    "THRA",
+    "THRB",
+    "TSHB"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.188,
+   "provenance": {
+    "AHR": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "F9": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "IL4": [
+     [
+      "GuideToPharmacology",
+      "agonist"
+     ]
+    ],
+    "IRS4": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "NFE2L2": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "NKX2-5": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "NOX3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "PAX8": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "PPARG": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "SERPINE1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "SLCO1B1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "TBL1X": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "THBD": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "THRA": [
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "agonist"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ]
+    ],
+    "THRB": [
+     [
+      "GuideToPharmacology",
+      "agonist"
+     ],
+     [
+      "DTC",
+      "NULL"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "agonist"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ]
+    ],
+    "TSHB": [
+     [
+      "NCI",
+      "NULL"
+     ],
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "montelukast": {
+   "accepted_spellings": [
+    "MONTELUKAST",
+    "MONTELUKAST SODIUM"
+   ],
+   "n_targets_mapped": 22,
+   "n_targets_in_lcc": 22,
+   "targets_in_lcc": [
+    "ABCC1",
+    "ABCC9",
+    "ALOX5",
+    "AMHR2",
+    "CA10",
+    "CYP1A2",
+    "CYP2C19",
+    "CYP2C8",
+    "CYP2C9",
+    "CYP2D6",
+    "CYP3A4",
+    "CYP3A5",
+    "CYSLTR1",
+    "GALNT17",
+    "KDM4A",
+    "LTA4H",
+    "LTC4S",
+    "MLLT3",
+    "POLH",
+    "POLI",
+    "POLK",
+    "UGT1A3"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.091,
+   "provenance": {
+    "ABCC1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ABCC9": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "ALOX5": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "AMHR2": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "CA10": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CYP1A2": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2C19": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2C8": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CYP2C9": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2D6": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP3A4": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP3A5": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "CYSLTR1": [
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ],
+     [
+      "PharmGKB",
+      "NULL"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ]
+    ],
+    "GALNT17": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "KDM4A": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "LTA4H": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "LTC4S": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "MLLT3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ],
+    "POLH": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "POLI": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "POLK": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "UGT1A3": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "ranitidine": {
+   "accepted_spellings": [
+    "RANITIDINE",
+    "RANITIDINE HYDROCHLORIDE"
+   ],
+   "n_targets_mapped": 16,
+   "n_targets_in_lcc": 15,
+   "targets_in_lcc": [
+    "ABCB1",
+    "CALCA",
+    "CYP1A2",
+    "CYP2C19",
+    "CYP2C9",
+    "CYP2D6",
+    "CYP3A4",
+    "EHMT2",
+    "F8",
+    "GRP",
+    "HRH2",
+    "HSPA4",
+    "PLA2G1B",
+    "PTH",
+    "SLC22A1"
+   ],
+   "dropped_not_in_lcc": [
+    "AMD1P2"
+   ],
+   "unmapped_by_hgnc": [],
+   "direction_coverage": 0.067,
+   "provenance": {
+    "ABCB1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CALCA": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP1A2": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2C19": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2C9": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2D6": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP3A4": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "EHMT2": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "F8": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "GRP": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "HRH2": [
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ]
+    ],
+    "HSPA4": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "PLA2G1B": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "PTH": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "SLC22A1": [
+     [
+      "PharmGKB",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  },
+  "finasteride": {
+   "accepted_spellings": [
+    "FINASTERIDE"
+   ],
+   "n_targets_mapped": 14,
+   "n_targets_in_lcc": 14,
+   "targets_in_lcc": [
+    "AKR1D1",
+    "AR",
+    "CFLAR",
+    "CYP1A2",
+    "CYP2C19",
+    "CYP2C9",
+    "CYP2D6",
+    "CYP3A4",
+    "FGFR1",
+    "GBP1",
+    "NFE2L2",
+    "SRD5A1",
+    "SRD5A2",
+    "TGM2"
+   ],
+   "dropped_not_in_lcc": [],
+   "unmapped_by_hgnc": [
+    "NULL"
+   ],
+   "direction_coverage": 0.143,
+   "provenance": {
+    "AKR1D1": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ]
+    ],
+    "AR": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CFLAR": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "CYP1A2": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2C19": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2C9": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP2D6": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "CYP3A4": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "FGFR1": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ],
+    "GBP1": [
+     [
+      "GuideToPharmacology",
+      "inhibitor"
+     ]
+    ],
+    "NFE2L2": [
+     [
+      "DTC",
+      "NULL"
+     ]
+    ],
+    "SRD5A1": [
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "TEND",
+      "NULL"
+     ]
+    ],
+    "SRD5A2": [
+     [
+      "TTD",
+      "NULL"
+     ],
+     [
+      "TdgClinicalTrial",
+      "NULL"
+     ],
+     [
+      "ChEMBL",
+      "inhibitor"
+     ]
+    ],
+    "TGM2": [
+     [
+      "NCI",
+      "NULL"
+     ]
+    ]
+   },
+   "note": ""
+  }
+ },
+ "negative_controls_used": [
+  "loratadine",
+  "omeprazole",
+  "levothyroxine",
+  "montelukast",
+  "ranitidine"
+ ],
+ "fifth_control_rule": "ranitidine declared first; finasteride is the stated fallback if ranitidine has no target in the LCC"
+}

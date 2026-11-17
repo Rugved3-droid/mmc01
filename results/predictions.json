@@ -1,0 +1,395 @@
+{
+ "cutoff_z": -1.0,
+ "metric": "closest_distance_proximity_zscore",
+ "n_pairs": 64,
+ "n_perm": 1000,
+ "predictions": [
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "atorvastatin",
+   "z": -2.9068
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "atorvastatin",
+   "z": -0.4087
+  },
+  {
+   "module": "M3",
+   "predicted_class": "matched",
+   "protectant": "atorvastatin",
+   "z": -2.0682
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "atorvastatin",
+   "z": 0.5796
+  },
+  {
+   "module": "M1",
+   "predicted_class": "not_matched",
+   "protectant": "bisoprolol",
+   "z": 0.6752
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "bisoprolol",
+   "z": 0.1445
+  },
+  {
+   "module": "M3",
+   "predicted_class": "not_matched",
+   "protectant": "bisoprolol",
+   "z": -0.3546
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "bisoprolol",
+   "z": -0.7257
+  },
+  {
+   "module": "M1",
+   "predicted_class": "not_matched",
+   "protectant": "candesartan",
+   "z": -0.2763
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "candesartan",
+   "z": -0.4962
+  },
+  {
+   "module": "M3",
+   "predicted_class": "matched",
+   "protectant": "candesartan",
+   "z": -1.7044
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "candesartan",
+   "z": -0.7372
+  },
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "carvedilol",
+   "z": -1.6172
+  },
+  {
+   "module": "M2",
+   "predicted_class": "matched",
+   "protectant": "carvedilol",
+   "z": -1.0838
+  },
+  {
+   "module": "M3",
+   "predicted_class": "matched",
+   "protectant": "carvedilol",
+   "z": -1.0294
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "carvedilol",
+   "z": 0.1859
+  },
+  {
+   "module": "M1",
+   "predicted_class": "not_matched",
+   "protectant": "dapagliflozin",
+   "z": 0.3356
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "dapagliflozin",
+   "z": -0.1529
+  },
+  {
+   "module": "M3",
+   "predicted_class": "not_matched",
+   "protectant": "dapagliflozin",
+   "z": -0.7355
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "dapagliflozin",
+   "z": -0.2614
+  },
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "dexrazoxane",
+   "z": -2.6511
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "dexrazoxane",
+   "z": 0.4561
+  },
+  {
+   "module": "M3",
+   "predicted_class": "not_matched",
+   "protectant": "dexrazoxane",
+   "z": 0.2902
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "dexrazoxane",
+   "z": 0.2042
+  },
+  {
+   "module": "M1",
+   "predicted_class": "not_matched",
+   "protectant": "empagliflozin",
+   "z": 0.2185
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "empagliflozin",
+   "z": -0.1641
+  },
+  {
+   "module": "M3",
+   "predicted_class": "not_matched",
+   "protectant": "empagliflozin",
+   "z": -0.6918
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "empagliflozin",
+   "z": -0.2935
+  },
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "enalapril",
+   "z": -1.3499
+  },
+  {
+   "module": "M2",
+   "predicted_class": "matched",
+   "protectant": "enalapril",
+   "z": -1.1345
+  },
+  {
+   "module": "M3",
+   "predicted_class": "matched",
+   "protectant": "enalapril",
+   "z": -2.5511
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "enalapril",
+   "z": 0.6449
+  },
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "eplerenone",
+   "z": -1.3454
+  },
+  {
+   "module": "M2",
+   "predicted_class": "matched",
+   "protectant": "eplerenone",
+   "z": -1.7456
+  },
+  {
+   "module": "M3",
+   "predicted_class": "not_matched",
+   "protectant": "eplerenone",
+   "z": -0.709
+  },
+  {
+   "module": "M4",
+   "predicted_class": "matched",
+   "protectant": "eplerenone",
+   "z": -1.779
+  },
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "lisinopril",
+   "z": -2.0536
+  },
+  {
+   "module": "M2",
+   "predicted_class": "matched",
+   "protectant": "lisinopril",
+   "z": -1.8609
+  },
+  {
+   "module": "M3",
+   "predicted_class": "matched",
+   "protectant": "lisinopril",
+   "z": -3.0419
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "lisinopril",
+   "z": -0.8871
+  },
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "metoprolol",
+   "z": -1.5911
+  },
+  {
+   "module": "M2",
+   "predicted_class": "matched",
+   "protectant": "metoprolol",
+   "z": -1.7659
+  },
+  {
+   "module": "M3",
+   "predicted_class": "matched",
+   "protectant": "metoprolol",
+   "z": -2.4695
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "metoprolol",
+   "z": -0.2727
+  },
+  {
+   "module": "M1",
+   "predicted_class": "not_matched",
+   "protectant": "nebivolol",
+   "z": -0.4608
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "nebivolol",
+   "z": -0.9047
+  },
+  {
+   "module": "M3",
+   "predicted_class": "not_matched",
+   "protectant": "nebivolol",
+   "z": -0.9044
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "nebivolol",
+   "z": -0.3579
+  },
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "rosuvastatin",
+   "z": -1.7044
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "rosuvastatin",
+   "z": -0.4221
+  },
+  {
+   "module": "M3",
+   "predicted_class": "not_matched",
+   "protectant": "rosuvastatin",
+   "z": 0.2176
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "rosuvastatin",
+   "z": -0.7177
+  },
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "sacubitril/valsartan",
+   "z": -1.1536
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "sacubitril/valsartan",
+   "z": -0.7974
+  },
+  {
+   "module": "M3",
+   "predicted_class": "not_matched",
+   "protectant": "sacubitril/valsartan",
+   "z": -0.6724
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "sacubitril/valsartan",
+   "z": -0.162
+  },
+  {
+   "module": "M1",
+   "predicted_class": "matched",
+   "protectant": "spironolactone",
+   "z": -1.9713
+  },
+  {
+   "module": "M2",
+   "predicted_class": "matched",
+   "protectant": "spironolactone",
+   "z": -1.1597
+  },
+  {
+   "module": "M3",
+   "predicted_class": "matched",
+   "protectant": "spironolactone",
+   "z": -2.8524
+  },
+  {
+   "module": "M4",
+   "predicted_class": "matched",
+   "protectant": "spironolactone",
+   "z": -1.5971
+  },
+  {
+   "module": "M1",
+   "predicted_class": "not_matched",
+   "protectant": "valsartan",
+   "z": 0.5187
+  },
+  {
+   "module": "M2",
+   "predicted_class": "not_matched",
+   "protectant": "valsartan",
+   "z": 0.0084
+  },
+  {
+   "module": "M3",
+   "predicted_class": "not_matched",
+   "protectant": "valsartan",
+   "z": -0.4078
+  },
+  {
+   "module": "M4",
+   "predicted_class": "not_matched",
+   "protectant": "valsartan",
+   "z": -0.0315
+  }
+ ],
+ "schema": "mmc01-predictions-v1",
+ "seed": 20261117,
+ "threshold": 700
+}

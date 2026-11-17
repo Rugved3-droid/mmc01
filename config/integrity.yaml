@@ -1,0 +1,69 @@
+# MMC-01 section 2 — study integrity rules.
+# These are enforced in code, not by intention.
+voids_study_if_violated: true
+
+no_outcome_feedback:
+  rule: >
+    No trial outcome may inform any gene set, interactome threshold, metric
+    definition, drug list, or inclusion rule. Any such influence voids the study.
+  enforcement:
+    - sealed/outcomes.json is unreadable by analysis code until
+      results/COMMITMENT.txt exists and verifies (see loader in src/analyze.py)
+    - modules were built by a separate agent with no access to outcomes,
+      to this conversation, or to the repository (see module_blinding below)
+  known_residual_risk: >
+    The protocol's order of operations builds outcomes before modules, so the
+    analyst who assembled outcomes already knew them. Module construction was
+    therefore delegated to a blinded builder. The drug list, thresholds, metric
+    and cutoff were all fixed by the written protocol before any data were read.
+
+module_blinding:
+  applied: true
+  rationale: >
+    While assembling the ground truth it became apparent that outcome code is
+    perfectly confounded with module identity (all POSITIVE pairs are M1, all
+    NULL pairs are M2). Knowing this is exactly the knowledge that could bias
+    how the M1 and M2 gene sets are drawn, so module construction was handed to
+    an agent given only the section 4 rules and no outcome information.
+  builder_inputs: "section 4 construction rules and the index agents only"
+  builder_excluded: "sealed/, RUNLOG.md, results/, and the analysis conversation"
+
+hash_commitment:
+  order:
+    - build and seal sealed/outcomes.json + sealed/OUTCOMES_HASH.txt
+    - build modules, freeze, hash
+    - build graph
+    - compute proximity
+    - run Gates 0, 1, 3, 4
+    - write results/predictions.json, hash it into results/COMMITMENT.txt, commit
+    - run Gate 2
+    - unseal and analyse
+  rule: >
+    A mismatch between the recorded hash of predictions.json and its hash at
+    unsealing voids the run.
+
+no_metric_invented_after_the_fact:
+  primary_metric: closest-distance proximity z-score (Guney/Menche)
+  primary_test: two-sided exact Wilcoxon rank-sum, POSITIVE vs NULL, STRING 700
+  rule: >
+    Any alternative metric run later is labelled exploratory everywhere it
+    appears, including in the abstract.
+
+report_all_arms: true
+# All three STRING thresholds and both proximity definitions appear in every
+# table. No arm may be dropped for being unfavourable.
+
+provenance_per_element:
+  rule: >
+    Every gene in every module carries its seed sources; every drug-target edge
+    carries its DGIdb source database and interaction type. An element with no
+    source does not enter.
+
+scope_guards:
+  no_bespoke_knowledge_graph: true
+  no_cardiotoxicity_prediction: true
+  no_qt_or_electrical_endpoint: true
+  no_camr_parameter_import: true
+  no_post_hoc_list_changes: true
+
+deviations_logged_in: RUNLOG.md

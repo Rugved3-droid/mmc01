@@ -1,0 +1,669 @@
+modules:
+  M1:
+    genes:
+      ACSL4:
+      - S5
+      - S6
+      - S7
+      ATP2A2:
+      - S2
+      - S5
+      - S7
+      BCL2:
+      - S1
+      - S7
+      BNIP3:
+      - S3
+      - S4
+      BNIP3L:
+      - S3
+      - S4
+      DNM1L:
+      - S3
+      - S4
+      - S7
+      FAS:
+      - S1
+      - S2
+      FOXO1:
+      - S1
+      - S3
+      FUNDC1:
+      - S3
+      - S4
+      GATA4:
+      - S1
+      - S2
+      - S7
+      GPX4:
+      - S1
+      - S5
+      - S6
+      - S7
+      HMOX1:
+      - S6
+      - S7
+      IL6:
+      - S1
+      - S2
+      MFN1:
+      - S3
+      - S4
+      NCOA4:
+      - S5
+      - S6
+      NLRP3:
+      - S1
+      - S2
+      - S6
+      NRF1:
+      - S3
+      - S7
+      OPA1:
+      - S3
+      - S7
+      PARP2:
+      - S1
+      - S3
+      PPARGC1A:
+      - S1
+      - S3
+      - S4
+      - S7
+      PPARGC1B:
+      - S3
+      - S4
+      PRKN:
+      - S1
+      - S3
+      - S4
+      - S7
+      SESN2:
+      - S3
+      - S4
+      SIRT1:
+      - S1
+      - S3
+      SIRT3:
+      - S3
+      - S7
+      SLC40A1:
+      - S5
+      - S6
+      SLC7A11:
+      - S5
+      - S6
+      SLC8A1:
+      - S2
+      - S5
+      - S7
+      STAT3:
+      - S1
+      - S3
+      TFAM:
+      - S3
+      - S7
+      TFRC:
+      - S5
+      - S6
+      - S7
+      TLR4:
+      - S1
+      - S2
+      TNF:
+      - S1
+      - S2
+      TOP2B:
+      - S5
+      - S7
+    genes_in_lcc_700:
+    - ACSL4
+    - ATP2A2
+    - BCL2
+    - BNIP3
+    - BNIP3L
+    - DNM1L
+    - FAS
+    - FOXO1
+    - FUNDC1
+    - GATA4
+    - GPX4
+    - HMOX1
+    - IL6
+    - MFN1
+    - NCOA4
+    - NLRP3
+    - NRF1
+    - OPA1
+    - PARP2
+    - PPARGC1A
+    - PPARGC1B
+    - PRKN
+    - SESN2
+    - SIRT1
+    - SIRT3
+    - SLC40A1
+    - SLC7A11
+    - SLC8A1
+    - STAT3
+    - TFAM
+    - TFRC
+    - TLR4
+    - TNF
+    - TOP2B
+    mechanism: Anthracycline cardiomyopathy
+    seed_sources:
+    - citation: Arrigoni R, et al. Pathophysiology of Doxorubicin-Mediated Cardiotoxicity.
+        Toxics. 2025;13:277.
+      doi: 10.3390/toxics13040277
+      id: S1
+      pmcid: PMC12031459
+      pmid: '40278593'
+    - citation: 'Bhutani V, et al. Doxorubicin-Induced Cardiotoxicity: A Comprehensive
+        Update. J Cardiovasc Dev Dis. 2025;12:207.'
+      doi: 10.3390/jcdd12060207
+      id: S2
+      pmcid: PMC12193598
+      pmid: '40558642'
+    - citation: 'Li W, et al. New insights into mitochondrial quality control in anthracycline-induced
+        cardiotoxicity: molecular mechanisms, therapeutic targets, and natural products.
+        Int J Biol Sci. 2025;21:507-523.'
+      doi: 10.7150/ijbs.103810
+      id: S3
+      pmcid: PMC11705644
+      pmid: '39781459'
+    - citation: "Qing G, et al. Alteration of cardiac energetics and mitochondrial\
+        \ function in doxorubicin\u2011induced cardiotoxicity: Molecular mechanism\
+        \ and prospective implications (Review). Int J Mol Med. 2025;56:183."
+      doi: 10.3892/ijmm.2025.5624
+      id: S4
+      pmcid: PMC12425352
+      pmid: '40910252'
+    - citation: 'Goswami Y, et al. Doxorubicin-induced cardiotoxicity: Is ferroptosis
+        the primary driver or a downstream amplifier?. EXCLI J. 2026;25:974-990.'
+      doi: 10.17179/excli2026-9516
+      id: S5
+      pmcid: PMC13402738
+      pmid: '42517079'
+    - citation: 'Zhang P, et al. Ferroptosis in Doxorubicin-Induced Cardiotoxicity:
+        From Molecular Mechanisms to Therapeutic Strategies and Clinical Management
+        Paradigms. Rev Cardiovasc Med. 2026;27:46166.'
+      doi: 10.31083/rcm46166
+      id: S6
+      pmcid: PMC13339178
+      pmid: '42416573'
+    - citation: 'Saeed HA, et al. Anthracycline- and HER2-induced cardiotoxicity:
+        mechanisms, current strategies, and the emerging role of dapagliflozin as
+        a targeted cardioprotective agent. Cardiooncology. 2025;11:100.'
+      doi: 10.1186/s40959-025-00386-7
+      id: S7
+      pmcid: PMC12584439
+      pmid: '41189010'
+  M2:
+    genes:
+      AKT1:
+      - S1
+      - S10
+      - S11
+      - S12
+      - S2
+      - S4
+      - S5
+      - S6
+      - S7
+      - S8
+      - S9
+      BCL2L1:
+      - S12
+      - S3
+      - S9
+      EGF:
+      - S11
+      - S12
+      - S5
+      EGFR:
+      - S11
+      - S12
+      - S13
+      - S2
+      - S3
+      - S5
+      - S9
+      ERBB2:
+      - S1
+      - S10
+      - S11
+      - S12
+      - S13
+      - S2
+      - S3
+      - S4
+      - S5
+      - S6
+      - S7
+      - S8
+      - S9
+      ERBB3:
+      - S1
+      - S10
+      - S11
+      - S12
+      - S13
+      - S2
+      - S3
+      - S4
+      - S5
+      - S9
+      ERBB4:
+      - S11
+      - S12
+      - S13
+      - S2
+      - S3
+      - S4
+      - S5
+      - S7
+      - S9
+      IGF1:
+      - S4
+      - S5
+      MAPK1:
+      - S11
+      - S2
+      - S5
+      - S7
+      - S9
+      MAPK3:
+      - S1
+      - S11
+      - S12
+      - S2
+      - S4
+      - S5
+      - S6
+      - S9
+      MMP2:
+      - S10
+      - S9
+      MTOR:
+      - S1
+      - S2
+      - S5
+      NRG1:
+      - S1
+      - S11
+      - S12
+      - S2
+      - S3
+      - S4
+      - S5
+      - S7
+      - S9
+      PDK1:
+      - S11
+      - S5
+      PTK2:
+      - S11
+      - S4
+    genes_in_lcc_700:
+    - AKT1
+    - BCL2L1
+    - EGF
+    - EGFR
+    - ERBB2
+    - ERBB3
+    - ERBB4
+    - IGF1
+    - MAPK1
+    - MAPK3
+    - MMP2
+    - MTOR
+    - NRG1
+    - PDK1
+    - PTK2
+    mechanism: Anti-HER2 cardiac dysfunction
+    seed_sources:
+    - citation: Eaton H, et al. Mechanisms of trastuzumab induced cardiotoxicity -
+        is exercise a potential treatment?. Cardiooncology. 2023;9:22.
+      doi: 10.1186/s40959-023-00172-3
+      id: S1
+      pmcid: PMC10127350
+      pmid: '37098605'
+    - citation: Lin M, et al. The Research Progress of Trastuzumab-Induced Cardiotoxicity
+        in HER-2-Positive Breast Cancer Treatment. Front Cardiovasc Med. 2021;8:821663.
+      doi: 10.3389/fcvm.2021.821663
+      id: S2
+      pmcid: PMC8789882
+      pmid: '35097033'
+    - citation: "Pond\xE9 NF, et al. Twenty years of anti-HER2 therapy-associated\
+        \ cardiotoxicity. ESMO Open. 2016;1:e000073."
+      doi: 10.1136/esmoopen-2016-000073
+      id: S3
+      pmcid: PMC5070246
+      pmid: '27843627'
+    - citation: Rupert CE, et al. The roles of neuregulin-1 in cardiac development,
+        homeostasis, and disease. Biomark Insights. 2015;10:1-9.
+      doi: 10.4137/bmi.s20061
+      id: S4
+      pmcid: PMC4395047
+      pmid: '25922571'
+    - citation: Wang Y, et al. Neuregulin-1, a potential therapeutic target for cardiac
+        repair. Front Pharmacol. 2022;13:945206.
+      doi: 10.3389/fphar.2022.945206
+      id: S5
+      pmcid: PMC9471952
+      pmid: '36120374'
+    - citation: 'Saeed HA, et al. Anthracycline- and HER2-induced cardiotoxicity:
+        mechanisms, current strategies, and the emerging role of dapagliflozin as
+        a targeted cardioprotective agent. Cardiooncology. 2025;11:100.'
+      doi: 10.1186/s40959-025-00386-7
+      id: S6
+      pmcid: PMC12584439
+      pmid: '41189010'
+    - citation: 'Tana M, et al. Cardiotoxicity of Antitumor Agents: Therapeutic Challenges
+        in Heart Failure with Reduced and Preserved Ejection Fraction. Int J Mol Sci.
+        2026;27:2973.'
+      doi: 10.3390/ijms27072973
+      id: S7
+      pmcid: PMC13073610
+      pmid: '41977162'
+    - citation: "Szubi\u0144ska-Ba\u0142aban P, et al. Genetic and Molecular Determinants\
+        \ of Cancer Therapy-Related Cardiovascular Toxicity. Cardiovasc Toxicol. 2026;26:113."
+      doi: 10.1007/s12012-026-10191-y
+      id: S8
+      pmcid: PMC13590445
+      pmid: '42763821'
+    - citation: Yang Z, et al. Cardiotoxicity of Epidermal Growth Factor Receptor
+        2-Targeted Drugs for Breast Cancer. Front Pharmacol. 2021;12:741451.
+      doi: 10.3389/fphar.2021.741451
+      id: S9
+      pmcid: PMC8591078
+      pmid: '34790121'
+    - citation: 'Santos Nussbaum ACA, et al. Cardiotoxicity of monoclonal antibody-based
+        therapies in breast cancer: a contemporary narrative review. Cardiooncology.
+        2026;12:82.'
+      doi: 10.1186/s40959-026-00490-2
+      id: S10
+      pmcid: PMC13312650
+      pmid: '42069784'
+    - citation: Vermeulen Z, et al. ErbB2 signaling at the crossing between heart
+        failure and cancer. Basic Res Cardiol. 2016;111:60.
+      doi: 10.1007/s00395-016-0576-z
+      id: S11
+      pmcid: PMC5011481
+      pmid: '27596216'
+    - citation: Hervent AS, et al. Molecular mechanisms of cardiotoxicity induced
+        by ErbB receptor inhibitor cancer therapeutics. Int J Mol Sci. 2012;13:12268-12286.
+      doi: 10.3390/ijms131012268
+      id: S12
+      pmcid: PMC3497272
+      pmid: '23202898'
+    - citation: Zhang X, et al. Review of the clinical status of cardiotoxicity of
+        HER-2 positive breast cancer targeted therapeutic drugs. Front Oncol. 2024;14:1492203.
+      doi: 10.3389/fonc.2024.1492203
+      id: S13
+      pmcid: PMC11842234
+      pmid: '39991185'
+  M3:
+    genes:
+      ARNT:
+      - S1
+      - S2
+      EDN1:
+      - S1
+      - S3
+      - S5
+      - S6
+      FLT1:
+      - S1
+      - S2
+      - S3
+      - S4
+      - S5
+      FLT4:
+      - S1
+      - S2
+      - S5
+      HIF1A:
+      - S1
+      - S3
+      - S5
+      KDR:
+      - S1
+      - S2
+      - S3
+      - S4
+      - S5
+      - S6
+      - S7
+      - S8
+      NRP1:
+      - S1
+      - S2
+      - S5
+      NRP2:
+      - S1
+      - S5
+      PDGFRB:
+      - S1
+      - S4
+      - S5
+      - S7
+      PGF:
+      - S1
+      - S2
+      - S3
+      - S5
+      VEGFA:
+      - S1
+      - S2
+      - S3
+      - S4
+      - S5
+      - S6
+      - S7
+      - S8
+      VEGFB:
+      - S1
+      - S2
+      - S3
+      - S5
+      VEGFC:
+      - S1
+      - S2
+      - S5
+      VEGFD:
+      - S1
+      - S2
+      - S5
+    genes_in_lcc_700:
+    - ARNT
+    - EDN1
+    - FLT1
+    - FLT4
+    - HIF1A
+    - KDR
+    - NRP1
+    - NRP2
+    - PDGFRB
+    - PGF
+    - VEGFB
+    - VEGFC
+    - VEGFD
+    mechanism: VEGF-pathway inhibition
+    seed_sources:
+    - citation: 'Lee C, et al. Vascular endothelial growth factor signaling in health
+        and disease: from molecular mechanisms to therapeutic perspectives. Signal
+        Transduct Target Ther. 2025;10:170.'
+      doi: 10.1038/s41392-025-02249-0
+      id: S1
+      pmcid: PMC12086256
+      pmid: '40383803'
+    - citation: Florek K, et al. Vascular Endothelial Growth Factor (VEGF) and Its
+        Role in the Cardiovascular System. Biomedicines. 2024;12:1055.
+      doi: 10.3390/biomedicines12051055
+      id: S2
+      pmcid: PMC11117514
+      pmid: '38791016'
+    - citation: 'Salvatorelli E, et al. VEGF-A signalling at the vascular-immune interface:
+        impact of anti-angiogenic agents on cardiovascular homeostasis and anthracycline-induced
+        injury. Cardiooncology. 2026;12:136.'
+      doi: 10.1186/s40959-026-00560-5
+      id: S3
+      pmcid: PMC13746687
+      pmid: '43000491'
+    - citation: 'Palaskas NL, et al. Onco-hypertension: hypertension induced by VEGF
+        pathway inhibition. Front Cardiovasc Med. 2026;13:1748445.'
+      doi: 10.3389/fcvm.2026.1748445
+      id: S4
+      pmcid: PMC13160817
+      pmid: '42131090'
+    - citation: 'Mishra A, et al. VEGF Signaling and Targeted Therapies in Cancer:
+        Molecular Mechanisms, Clinical Applications, Resistance, and Cardiorenal Toxicities.
+        Int J Mol Sci. 2026;27:9376.'
+      doi: 10.3390/ijms27209376
+      id: S5
+      pmcid: PMC13705326
+      pmid: '42942141'
+    - citation: 'Nihei S, et al. VEGF inhibitor-induced proteinuria: the role of hypertension
+        and vascular endothelial dysfunction. J Pharm Health Care Sci. 2026;12:81.'
+      doi: 10.1186/s40780-026-00586-y
+      id: S6
+      pmcid: PMC13560215
+      pmid: '42351319'
+    - citation: Singh G, et al. Metabolomic Profiling of Tyrosine Kinase Inhibitor-Induced
+        Endothelial Dysfunction and Cardiovascular Toxicity. Metabolites. 2026;16:200.
+      doi: 10.3390/metabo16030200
+      id: S7
+      pmcid: PMC13029070
+      pmid: '41893349'
+    - citation: Li Y, et al. Hypertension associated with systemic therapy for hepatocellular
+        carcinoma and management strategies. Front Pharmacol. 2026;17:1780200.
+      doi: 10.3389/fphar.2026.1780200
+      id: S8
+      pmcid: PMC13216190
+      pmid: '42222153'
+  M4:
+    genes:
+      ATF6:
+      - S1
+      - S5
+      ATG7:
+      - S6
+      - S7
+      BAG3:
+      - S3
+      - S4
+      - S7
+      CRYAB:
+      - S6
+      - S7
+      EIF2AK3:
+      - S1
+      - S5
+      - S6
+      EIF2S1:
+      - S1
+      - S5
+      - S6
+      HSP90AA1:
+      - S1
+      - S2
+      - S3
+      - S5
+      HSPA5:
+      - S1
+      - S2
+      - S3
+      - S5
+      - S6
+      - S7
+      MAP1LC3B:
+      - S3
+      - S4
+      - S7
+      MAP3K7:
+      - S4
+      - S7
+      MDM2:
+      - S4
+      - S5
+      NFKB1:
+      - S2
+      - S4
+      - S5
+      - S7
+      SQSTM1:
+      - S6
+      - S7
+      ULK1:
+      - S1
+      - S6
+      - S7
+      XBP1:
+      - S1
+      - S5
+    genes_in_lcc_700:
+    - ATF6
+    - ATG7
+    - BAG3
+    - CRYAB
+    - EIF2AK3
+    - EIF2S1
+    - HSP90AA1
+    - HSPA5
+    - MAP1LC3B
+    - MAP3K7
+    - MDM2
+    - NFKB1
+    - SQSTM1
+    - ULK1
+    - XBP1
+    mechanism: Proteasome-inhibitor cardiac dysfunction
+    seed_sources:
+    - citation: 'Qian X, et al. From cancer therapy to cardiac safety: the role of
+        proteostasis in drug-induced cardiotoxicity. Front Pharmacol. 2024;15:1472387.'
+      doi: 10.3389/fphar.2024.1472387
+      id: S1
+      pmcid: PMC11602306
+      pmid: '39611175'
+    - citation: 'Gao Y, et al. Carfilzomib in multiple myeloma: unraveling cardiac
+        toxicities - from mechanisms to diagnosis and management. Front Pharmacol.
+        2025;16:1570017.'
+      doi: 10.3389/fphar.2025.1570017
+      id: S2
+      pmcid: PMC11983411
+      pmid: '40213696'
+    - citation: 'Chatrathi AR, et al. Cardiotoxicity induced by multiple myeloma therapies:
+        mechanistic convergence across proteasome inhibitors, CAR-T, and bispecific
+        antibodies. Blood Cancer J. 2026;16:129.'
+      doi: 10.1038/s41408-026-01481-3
+      id: S3
+      pmcid: PMC13424589
+      pmid: '42215456'
+    - citation: 'Zhu J, et al. The ubiquitin system in heart and vessel pathobiology:
+        From mechanisms to therapeutic strategies. Genes Dis. 2026;13:102023.'
+      doi: 10.1016/j.gendis.2025.102023
+      id: S4
+      pmcid: PMC13392875
+      pmid: '42494642'
+    - citation: "Garc\xEDa Torres JE, et al. Cardiovascular Diseases and Cancer: Convergent\
+        \ Proteostasis Networks at the Crossroads of Mechanisms and Therapeutic Opportunities.\
+        \ MedComm (2020). 2026;7:e70892."
+      doi: 10.1002/mco2.70892
+      id: S5
+      pmcid: PMC13451158
+      pmid: '42571123'
+    - citation: 'Li J, et al. Role of Autophagy in Proteostasis: Friend and Foe in
+        Cardiac Diseases. Cells. 2018;7:E279.'
+      doi: 10.3390/cells7120279
+      id: S6
+      pmcid: PMC6316637
+      pmid: '30572675'
+    - citation: 'Espitia-Corredor JA, et al. Beyond autophagic flux: selective autophagy
+        adaptors and cargo prioritization in cardiac disease. Cardiol Plus. 2026;11:134-150.'
+      doi: 10.1097/cp9.0000000000000161
+      id: S7
+      pmcid: PMC13299037
+      pmid: '42369864'
+overlaps_resolved: []
