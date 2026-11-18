@@ -2,13 +2,11 @@
 
 **Article type:** Research Article
 
-Rugved Parmar
+Rugved Parmar¹, Md Fahim¹, Adam Budzikowski¹
 
-*Affiliation to be completed*
+¹ SUNY Downstate Health Sciences University, Brooklyn, New York, USA
 
-Corresponding author: *institutional e-mail required at submission*
-
-ORCID: *to be completed*
+**Corresponding author:** Rugved Parmar, SUNY Downstate Health Sciences University, Brooklyn, New York, USA. E-mail: rugved.parmar@downstate.edu
 
 ---
 
@@ -16,7 +14,7 @@ ORCID: *to be completed*
 
 Cancer-therapy cardiotoxicity is mechanistically heterogeneous, yet cardioprotection has largely been attempted with the same neurohormonal agents across unrelated mechanisms. We asked whether protein-interaction network proximity between a drug's targets and the molecular module of a specific cardiotoxicity reflects that mechanism, under a protocol fixed entirely in advance. Four cardiotoxicity modules — anthracycline, anti-HER2, VEGF-pathway and proteasome-inhibitor — were assembled from 35 published mechanism reviews under a two-source-per-gene rule by a builder blinded to all outcome information. Closest-distance proximity to the targets of 16 cardioprotectants was computed on STRING v12.0 against a 1000-permutation degree-matched null, at three confidence thresholds, with all parameters, the binary cutoff and four decision gates specified before any data were read. The pre-specified positive control passed: dexrazoxane against the anthracycline module reached z = −2.651 (4.7th percentile of 64 pairs), passing in five of six threshold-by-metric arms and strengthening with interactome confidence to the most proximal pair of all at STRING 900. Leave-one-target-out attributed this to TOP2B (Δz = +1.887), the established mediator of anthracycline cardiotoxicity. Cardioprotectants were significantly closer to cardiotoxicity modules than a 100-drug random background (median z −0.722 vs −0.361; p = 0.0022). However, levothyroxine, sharing no gene with either module, entered the top quartile against two of them, and the pre-specified negative-control gate failed. Interactome proximity carries genuine mechanistic signal in cardiotoxicity but lacks drug-level specificity, and quartile-threshold criteria are poorly calibrated as specificity tests.
 
-**Graphical Abstract:** *(to be placed in the Abstract section at submission; source file `results/figures/graphical_abstract.png`)*
+**Graphical Abstract:** A three-panel summary is provided in the Graphical Abstract section: dexrazoxane's module-selective proximity profile; the TOP2B dependency of the anthracycline-module signal; and the proximity distribution of cardioprotectants against a random drug background.
 
 **Keywords:** cardio-oncology; anthracycline cardiotoxicity; topoisomerase-2β; network pharmacology; dexrazoxane; pre-registration
 
@@ -189,11 +187,11 @@ Under full pre-specification, interactome proximity recovered the dexrazoxane–
 
 **Consent to participate / Consent to publish.** Not applicable.
 
-**Data availability.** All data supporting this study are publicly available. STRING v12.0, DGIdb and HGNC were obtained from their public distributions; the exact files used are identified by SHA-256 in the accompanying provenance record. All derived data — module definitions with per-gene source provenance, drug–target assignments with per-edge provenance, proximity results for every arm, gate outputs, and the sealed outcome file with its hash — are provided with the code. Key integrity hashes: sealed outcomes `16a1bf84d9369805e773bf2cc0dc624db0816865fc906c9d451826d2cf53fb50`; committed predictions `56018d7324ebf2543f850f11e4669cab4124a2d35f03349a3c55e0f2a34ee63a`; frozen modules `95f84b7b46e8d3ae08afe8d0b03ba1913c7c3906f315b5e2f060d8ccf8ba2c65`.
+**Data availability.** All data supporting this study are publicly available at https://github.com/Rugved3-droid/mmc01. STRING v12.0, DGIdb and HGNC were obtained from their public distributions; the exact files used are identified by SHA-256 in the provenance record in that repository. All derived data — module definitions with per-gene source provenance, drug–target assignments with per-edge provenance, proximity results for every arm, gate outputs, and the sealed outcome file with its hash — are included. Key integrity hashes: sealed outcomes `16a1bf84d9369805e773bf2cc0dc624db0816865fc906c9d451826d2cf53fb50`; committed predictions `56018d7324ebf2543f850f11e4669cab4124a2d35f03349a3c55e0f2a34ee63a`; frozen modules `95f84b7b46e8d3ae08afe8d0b03ba1913c7c3906f315b5e2f060d8ccf8ba2c65`. The commit history shows that the sealed outcome file was added once and never subsequently modified or read.
 
-**Code availability.** All analysis code, configuration files and the complete run log, including abandoned runs and protocol deviations, are provided.
+**Code availability.** All analysis code, configuration files and the complete run log — including abandoned runs, protocol deviations and the superseded first draft — are available at https://github.com/Rugved3-droid/mmc01. Precomputed shortest-path distance matrices are regenerable from the supplied code and are not redistributed.
 
-**Author contributions.** R.P. conceived the study, wrote the protocol, defined the gates, supervised and verified all analyses, and approved the final manuscript. Use of an AI computational assistant is declared in §2.8.
+**Author contributions.** R.P. conceived the study, wrote the pre-registration protocol, defined the decision gates, implemented and executed all analyses, verified the numerical results against the output files, and drafted the manuscript. M.F. contributed to interpretation of the results and critically revised the manuscript for important intellectual content. A.B. supervised the work, contributed to interpretation, and critically revised the manuscript for important intellectual content. All authors read and approved the final manuscript. Use of an AI computational assistant is declared in Section 2.8.
 
 ---
 
