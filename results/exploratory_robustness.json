@@ -1,0 +1,355 @@
+{
+ "EXPLORATORY": true,
+ "threshold": 700,
+ "seed": 20261117,
+ "note": "rule 2.3: exploratory, cannot change any recorded gate verdict",
+ "leave_one_target_out": {
+  "dexrazoxane__M1": {
+   "z_full": -2.6511,
+   "n_targets": 5,
+   "leave_one_out": [
+    {
+     "dropped": "TOP2B",
+     "z": -0.7637,
+     "delta_vs_full": 1.8874,
+     "degree_of_dropped": 15
+    },
+    {
+     "dropped": "CP",
+     "z": -1.995,
+     "delta_vs_full": 0.6561,
+     "degree_of_dropped": 31
+    },
+    {
+     "dropped": "TOP2A",
+     "z": -2.5057,
+     "delta_vs_full": 0.1454,
+     "degree_of_dropped": 137
+    },
+    {
+     "dropped": "MAPK8",
+     "z": -2.5607,
+     "delta_vs_full": 0.0904,
+     "degree_of_dropped": 194
+    },
+    {
+     "dropped": "DPYS",
+     "z": -3.7669,
+     "delta_vs_full": -1.1158,
+     "degree_of_dropped": 8
+    }
+   ]
+  },
+  "levothyroxine__M2": {
+   "z_full": -2.6217,
+   "n_targets": 16,
+   "leave_one_out": [
+    {
+     "dropped": "NOX3",
+     "z": -2.161,
+     "delta_vs_full": 0.4606,
+     "degree_of_dropped": 17
+    },
+    {
+     "dropped": "IRS4",
+     "z": -2.1898,
+     "delta_vs_full": 0.4318,
+     "degree_of_dropped": 38
+    },
+    {
+     "dropped": "THRB",
+     "z": -2.2456,
+     "delta_vs_full": 0.3761,
+     "degree_of_dropped": 29
+    },
+    {
+     "dropped": "NFE2L2",
+     "z": -2.3785,
+     "delta_vs_full": 0.2431,
+     "degree_of_dropped": 81
+    },
+    {
+     "dropped": "SERPINE1",
+     "z": -2.3977,
+     "delta_vs_full": 0.224,
+     "degree_of_dropped": 70
+    },
+    {
+     "dropped": "AHR",
+     "z": -2.5819,
+     "delta_vs_full": 0.0398,
+     "degree_of_dropped": 16
+    },
+    {
+     "dropped": "IL4",
+     "z": -2.5917,
+     "delta_vs_full": 0.03,
+     "degree_of_dropped": 175
+    },
+    {
+     "dropped": "PPARG",
+     "z": -2.6392,
+     "delta_vs_full": -0.0176,
+     "degree_of_dropped": 169
+    },
+    {
+     "dropped": "TBL1X",
+     "z": -2.6758,
+     "delta_vs_full": -0.0542,
+     "degree_of_dropped": 29
+    },
+    {
+     "dropped": "F9",
+     "z": -2.679,
+     "delta_vs_full": -0.0574,
+     "degree_of_dropped": 24
+    },
+    {
+     "dropped": "NKX2-5",
+     "z": -2.7062,
+     "delta_vs_full": -0.0845,
+     "degree_of_dropped": 40
+    },
+    {
+     "dropped": "THRA",
+     "z": -2.7116,
+     "delta_vs_full": -0.09,
+     "degree_of_dropped": 29
+    },
+    {
+     "dropped": "PAX8",
+     "z": -2.7197,
+     "delta_vs_full": -0.0981,
+     "degree_of_dropped": 33
+    },
+    {
+     "dropped": "SLCO1B1",
+     "z": -2.7369,
+     "delta_vs_full": -0.1152,
+     "degree_of_dropped": 35
+    },
+    {
+     "dropped": "TSHB",
+     "z": -2.8136,
+     "delta_vs_full": -0.192,
+     "degree_of_dropped": 31
+    },
+    {
+     "dropped": "THBD",
+     "z": -2.8285,
+     "delta_vs_full": -0.2069,
+     "degree_of_dropped": 48
+    }
+   ]
+  },
+  "levothyroxine__M3": {
+   "z_full": -3.207,
+   "n_targets": 16,
+   "leave_one_out": [
+    {
+     "dropped": "AHR",
+     "z": -2.699,
+     "delta_vs_full": 0.5081,
+     "degree_of_dropped": 16
+    },
+    {
+     "dropped": "NFE2L2",
+     "z": -2.7378,
+     "delta_vs_full": 0.4692,
+     "degree_of_dropped": 81
+    },
+    {
+     "dropped": "THBD",
+     "z": -2.8107,
+     "delta_vs_full": 0.3963,
+     "degree_of_dropped": 48
+    },
+    {
+     "dropped": "SERPINE1",
+     "z": -2.915,
+     "delta_vs_full": 0.2921,
+     "degree_of_dropped": 70
+    },
+    {
+     "dropped": "PPARG",
+     "z": -2.9517,
+     "delta_vs_full": 0.2553,
+     "degree_of_dropped": 169
+    },
+    {
+     "dropped": "IL4",
+     "z": -2.9724,
+     "delta_vs_full": 0.2347,
+     "degree_of_dropped": 175
+    },
+    {
+     "dropped": "NOX3",
+     "z": -2.9838,
+     "delta_vs_full": 0.2232,
+     "degree_of_dropped": 17
+    },
+    {
+     "dropped": "PAX8",
+     "z": -3.1012,
+     "delta_vs_full": 0.1058,
+     "degree_of_dropped": 33
+    },
+    {
+     "dropped": "IRS4",
+     "z": -3.1029,
+     "delta_vs_full": 0.1042,
+     "degree_of_dropped": 38
+    },
+    {
+     "dropped": "NKX2-5",
+     "z": -3.1232,
+     "delta_vs_full": 0.0838,
+     "degree_of_dropped": 40
+    },
+    {
+     "dropped": "THRA",
+     "z": -3.1511,
+     "delta_vs_full": 0.0559,
+     "degree_of_dropped": 29
+    },
+    {
+     "dropped": "THRB",
+     "z": -3.1511,
+     "delta_vs_full": 0.0559,
+     "degree_of_dropped": 29
+    },
+    {
+     "dropped": "TBL1X",
+     "z": -3.2008,
+     "delta_vs_full": 0.0063,
+     "degree_of_dropped": 29
+    },
+    {
+     "dropped": "TSHB",
+     "z": -3.2284,
+     "delta_vs_full": -0.0214,
+     "degree_of_dropped": 31
+    },
+    {
+     "dropped": "F9",
+     "z": -3.2424,
+     "delta_vs_full": -0.0354,
+     "degree_of_dropped": 24
+    },
+    {
+     "dropped": "SLCO1B1",
+     "z": -3.7384,
+     "delta_vs_full": -0.5313,
+     "degree_of_dropped": 35
+    }
+   ]
+  }
+ },
+ "selectivity_index_most_selective_first": [
+  {
+   "drug": "dexrazoxane",
+   "group": "protectant",
+   "module": "M1",
+   "z": -2.6511,
+   "selectivity": -2.9679
+  },
+  {
+   "drug": "atorvastatin",
+   "group": "protectant",
+   "module": "M1",
+   "z": -2.9068,
+   "selectivity": -2.2744
+  },
+  {
+   "drug": "enalapril",
+   "group": "protectant",
+   "module": "M3",
+   "z": -2.5511,
+   "selectivity": -1.9379
+  },
+  {
+   "drug": "lisinopril",
+   "group": "protectant",
+   "module": "M3",
+   "z": -3.0419,
+   "selectivity": -1.4414
+  },
+  {
+   "drug": "rosuvastatin",
+   "group": "protectant",
+   "module": "M1",
+   "z": -1.7044,
+   "selectivity": -1.397
+  },
+  {
+   "drug": "levothyroxine",
+   "group": "negative_control",
+   "module": "M3",
+   "z": -3.1253,
+   "selectivity": -1.3761
+  },
+  {
+   "drug": "loratadine",
+   "group": "negative_control",
+   "module": "M3",
+   "z": -1.5101,
+   "selectivity": -1.3664
+  },
+  {
+   "drug": "spironolactone",
+   "group": "protectant",
+   "module": "M3",
+   "z": -2.8524,
+   "selectivity": -1.2764
+  },
+  {
+   "drug": "metoprolol",
+   "group": "protectant",
+   "module": "M3",
+   "z": -2.4695,
+   "selectivity": -1.2596
+  },
+  {
+   "drug": "candesartan",
+   "group": "protectant",
+   "module": "M3",
+   "z": -1.7044,
+   "selectivity": -1.2012
+  },
+  {
+   "drug": "atorvastatin",
+   "group": "protectant",
+   "module": "M3",
+   "z": -2.0682,
+   "selectivity": -1.1562
+  },
+  {
+   "drug": "carvedilol",
+   "group": "protectant",
+   "module": "M1",
+   "z": -1.6172,
+   "selectivity": -0.9748
+  },
+  {
+   "drug": "bisoprolol",
+   "group": "protectant",
+   "module": "M4",
+   "z": -0.7257,
+   "selectivity": -0.8807
+  },
+  {
+   "drug": "ranitidine",
+   "group": "negative_control",
+   "module": "M3",
+   "z": -0.8253,
+   "selectivity": -0.8505
+  },
+  {
+   "drug": "levothyroxine",
+   "group": "negative_control",
+   "module": "M2",
+   "z": -2.645,
+   "selectivity": -0.7357
+  }
+ ]
+}

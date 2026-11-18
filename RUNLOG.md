@@ -169,3 +169,57 @@ discovered by execution. It was not swapped out.
 
 **Status: Gate 4 FAIL. Under section 7 a FAIL stops the study. Paused before
 unsealing, pending a decision.**
+
+---
+
+## 2026-11-17 — Run 2: sensitivity arms, figures, exploratory robustness
+
+**Decision recorded:** Gate 4 FAIL was honoured. `sealed/outcomes.json` was NOT
+opened. Gate 2 was not run. No outcome has ever entered the analysis, and the
+commitment hash plus the untouched seal are the evidence.
+
+**All arms reported (rule 2.4).** Gate 3 and Gate 4 recomputed at every threshold
+under both the primary metric and the secondary S_AB:
+
+| arm | cutoff | dexrazoxane-M1 | percentile | Gate 3 | Gate 4 (pair) | Gate 4 (drug) | violating controls |
+|---|---|---|---|---|---|---|---|
+| 400 / z | -1.299 | -1.689 | 12.5% | PASS | CONDITIONAL | CONDITIONAL | levothyroxine |
+| 400 / S_AB | 0.192 | 0.198 | 28.1% | **FAIL** | FAIL | FAIL | levothyroxine, loratadine, omeprazole |
+| **700 / z (primary)** | -1.602 | **-2.651** | **4.7%** | **PASS** | **FAIL** | CONDITIONAL | levothyroxine |
+| 700 / S_AB | 0.284 | 0.234 | 15.6% | PASS | FAIL | CONDITIONAL | loratadine |
+| 900 / z | -1.170 | -3.432 | **0.0%** | PASS | FAIL | FAIL | levothyroxine, loratadine, ranitidine |
+| 900 / S_AB | 0.377 | 0.117 | 7.8% | PASS | CONDITIONAL | CONDITIONAL | levothyroxine |
+
+Gate 3 passes in 5 of 6 arms and sharpens monotonically with interactome
+confidence (12.5% -> 4.7% -> 0.0%): on the highest-confidence graph dexrazoxane-M1
+is the single most proximal of all 64 pairs. It fails only under S_AB at 400.
+**Gate 4 never passes in any arm under either metric.**
+
+**Figures written** to `results/figures/`: fig1 proximity heatmap (protectants and
+negative controls on one colour scale), fig2 Gate 3 with every pair plotted
+individually across all three arms, fig3 Gate 4 specificity. Fig 3 replaces the
+protocol's leave-one-out stability plot, which is not applicable because no
+primary statistic was computed.
+
+### EXPLORATORY (rule 2.3 — cannot change any recorded verdict)
+
+Leave-one-target-out, STRING 700, same seed:
+
+- **Gate 3 is carried by TOP2B.** Removing TOP2B alone moves dexrazoxane-M1 from
+  z = -2.651 to -0.764 (delta +1.887); no other target shifts it by more than
+  0.66. TOP2B is the established mediator of anthracycline cardiotoxicity and
+  dexrazoxane's own target, and its degree is only 15, so this is not a hub
+  artefact. The positive control passes for the mechanistically correct reason.
+- **The Gate 4 breach is distributed, not attributable to one gene.** The largest
+  single-target effect for levothyroxine is +0.461 (NOX3) against M2 and +0.508
+  (AHR) against M3. Every leave-one-out still leaves z below -2.1. Excluding any
+  one "bad" target would not repair specificity.
+- **Module-selectivity index** (exploratory, z for a module minus the mean z for
+  the other three): dexrazoxane-M1 is the most selective pair in the panel at
+  -2.97, ahead of atorvastatin-M1 at -2.27. Dexrazoxane is not merely close to
+  M1, it is close to M1 and to nothing else (M2 +0.46, M3 +0.29, M4 +0.20).
+- M3 dominates the selectivity ranking generally, consistent with its small size
+  (13 genes in the LCC) inflating closest-distance proximity.
+
+**Status: analysis complete. Study stopped at Gate 4 as section 7 requires.
+Seal intact.**

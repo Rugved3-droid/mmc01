@@ -1,0 +1,167 @@
+{
+ "400/z": {
+  "threshold": 400,
+  "metric": "closest_distance_z",
+  "n_reference_values": 64,
+  "top_quartile_cutoff": -1.2986,
+  "dexrazoxane_M1": -1.6887,
+  "dexrazoxane_percentile": 12.5,
+  "gate3": "PASS",
+  "gate4_violations_pairs": 1,
+  "gate4_violations_distinct_drugs": 1,
+  "gate4_by_pair": "CONDITIONAL",
+  "gate4_by_drug": "CONDITIONAL",
+  "violations": [
+   {
+    "drug": "levothyroxine",
+    "module": "M3",
+    "z": -2.0137
+   }
+  ]
+ },
+ "400/s_ab": {
+  "threshold": 400,
+  "metric": "S_AB",
+  "n_reference_values": 64,
+  "top_quartile_cutoff": 0.1921,
+  "dexrazoxane_M1": 0.1981,
+  "dexrazoxane_percentile": 28.1,
+  "gate3": "FAIL",
+  "gate4_violations_pairs": 3,
+  "gate4_violations_distinct_drugs": 3,
+  "gate4_by_pair": "FAIL",
+  "gate4_by_drug": "FAIL",
+  "violations": [
+   {
+    "drug": "loratadine",
+    "module": "M1",
+    "s_ab": 0.134
+   },
+   {
+    "drug": "omeprazole",
+    "module": "M1",
+    "s_ab": 0.1808
+   },
+   {
+    "drug": "levothyroxine",
+    "module": "M1",
+    "s_ab": 0.1203
+   }
+  ]
+ },
+ "700/z": {
+  "threshold": 700,
+  "metric": "closest_distance_z",
+  "n_reference_values": 64,
+  "top_quartile_cutoff": -1.6021,
+  "dexrazoxane_M1": -2.6511,
+  "dexrazoxane_percentile": 4.7,
+  "gate3": "PASS",
+  "gate4_violations_pairs": 2,
+  "gate4_violations_distinct_drugs": 1,
+  "gate4_by_pair": "FAIL",
+  "gate4_by_drug": "CONDITIONAL",
+  "violations": [
+   {
+    "drug": "levothyroxine",
+    "module": "M2",
+    "z": -2.645
+   },
+   {
+    "drug": "levothyroxine",
+    "module": "M3",
+    "z": -3.1253
+   }
+  ]
+ },
+ "700/s_ab": {
+  "threshold": 700,
+  "metric": "S_AB",
+  "n_reference_values": 64,
+  "top_quartile_cutoff": 0.2844,
+  "dexrazoxane_M1": 0.2335,
+  "dexrazoxane_percentile": 15.6,
+  "gate3": "PASS",
+  "gate4_violations_pairs": 2,
+  "gate4_violations_distinct_drugs": 1,
+  "gate4_by_pair": "FAIL",
+  "gate4_by_drug": "CONDITIONAL",
+  "violations": [
+   {
+    "drug": "loratadine",
+    "module": "M1",
+    "s_ab": 0.2599
+   },
+   {
+    "drug": "loratadine",
+    "module": "M2",
+    "s_ab": 0.1381
+   }
+  ]
+ },
+ "900/z": {
+  "threshold": 900,
+  "metric": "closest_distance_z",
+  "n_reference_values": 64,
+  "top_quartile_cutoff": -1.1698,
+  "dexrazoxane_M1": -3.4323,
+  "dexrazoxane_percentile": 0.0,
+  "gate3": "PASS",
+  "gate4_violations_pairs": 6,
+  "gate4_violations_distinct_drugs": 3,
+  "gate4_by_pair": "FAIL",
+  "gate4_by_drug": "FAIL",
+  "violations": [
+   {
+    "drug": "loratadine",
+    "module": "M3",
+    "z": -2.0933
+   },
+   {
+    "drug": "levothyroxine",
+    "module": "M1",
+    "z": -2.0822
+   },
+   {
+    "drug": "levothyroxine",
+    "module": "M2",
+    "z": -2.5567
+   },
+   {
+    "drug": "levothyroxine",
+    "module": "M3",
+    "z": -1.7243
+   },
+   {
+    "drug": "levothyroxine",
+    "module": "M4",
+    "z": -1.8629
+   },
+   {
+    "drug": "ranitidine",
+    "module": "M3",
+    "z": -2.0326
+   }
+  ]
+ },
+ "900/s_ab": {
+  "threshold": 900,
+  "metric": "S_AB",
+  "n_reference_values": 64,
+  "top_quartile_cutoff": 0.377,
+  "dexrazoxane_M1": 0.1172,
+  "dexrazoxane_percentile": 7.8,
+  "gate3": "PASS",
+  "gate4_violations_pairs": 1,
+  "gate4_violations_distinct_drugs": 1,
+  "gate4_by_pair": "CONDITIONAL",
+  "gate4_by_drug": "CONDITIONAL",
+  "violations": [
+   {
+    "drug": "levothyroxine",
+    "module": "M2",
+    "s_ab": 0.3334
+   }
+  ]
+ }
+}
