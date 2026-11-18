@@ -1,4 +1,6 @@
-﻿data/raw/*.gz
+data/raw/*.gz
 data/raw/*.txt
 data/raw/*.tsv
+data/dist/
 __pycache__/
+*.pyc
