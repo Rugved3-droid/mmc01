@@ -223,3 +223,56 @@ Leave-one-target-out, STRING 700, same seed:
 
 **Status: analysis complete. Study stopped at Gate 4 as section 7 requires.
 Seal intact.**
+
+---
+
+## 2026-11-17 — Run 3: corrected headline, expanded controls, submission draft
+
+**Correction to the Run 2 interpretation.** The first manuscript draft led with
+"the method fails its own negative control". That framing was wrong and the draft
+has been withdrawn (`paper/MMC01_manuscript.md` deleted; retained in git history).
+
+An exploratory calibration check showed Gate 4 was mis-specified, not failed in
+substance. A top quartile holds 25% of values by construction, so five of the
+twenty negative-control pairs would be expected inside it under exchangeability.
+Two were observed at the primary arm. Across arms the controls were in fact
+FARTHER from the modules than the cardioprotectants (permutation two-sided
+p = 0.0027 at 400, p = 0.0168 at 700, p = 0.152 at 900). The gate demanded zero
+overlap between two distributions that overlap by construction.
+
+**The recorded Gate 4 verdict is unchanged and remains FAIL.** It was
+pre-specified, it executed, and it is reported as it fell. The calibration
+analysis is exploratory and changes interpretation only.
+
+**Expanded control set (exploratory).** 100 DGIdb drugs with 3-60 LCC targets
+sampled at random (seed 20261117), all study drugs excluded, giving 400
+background drug-module pairs. Cardioprotectants are significantly closer to the
+cardiotoxicity modules than this background: median z -0.722 vs -0.361, mean
+-0.855 vs -0.362, permutation two-sided p = 0.0022. Only 16.8% of background
+pairs fall inside the protectant top quartile against 25% expected. The test is
+conservative: background drugs were not screened for cardiac activity, so any
+cardioactive drug among them works against the difference.
+
+**Submission draft built** for Cardiovascular Toxicology (Springer) as a Research
+Article: `paper/MMC01_CardiovascTox_ResearchArticle.md` and
+`paper/MMC01_CardiovascularToxicology_submission.docx`. Journal is hybrid and
+states "There are no Page Charges for accepted articles", so the subscription
+route carries no fee. Framing moved from methods-critique to mechanism-first,
+leading with the dexrazoxane-TOP2B result. 3,672 body words (limit ~10,000),
+232-word abstract (limit 150-250), 6 keywords (limit 4-6), 42 references,
+3 figures plus the required Graphical Abstract.
+
+`src/verify_numbers.py` audits 49 quantitative and formatting claims against the
+result files and the seal; all pass. It caught one real transcription error
+(control median at STRING 900 written as -0.057, actual -0.058), now fixed.
+
+**Outstanding before submission (author items):**
+- Institutional e-mail address. The journal requires at least one among the
+  authors and asks for it from the corresponding author; a personal relay
+  address will not satisfy this.
+- Affiliation and ORCID.
+- AI-assistance declaration is drafted in Methods section 2.8 per Springer policy
+  and must be confirmed by the author.
+- Suggested reviewers with institutional e-mail addresses (optional but helpful).
+- Decide whether to deposit the repository publicly and add the link to the Data
+  and Code Availability statements.

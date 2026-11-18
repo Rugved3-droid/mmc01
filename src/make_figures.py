@@ -148,8 +148,30 @@ def fig3(arms):
         if sel.any():
             ax.scatter(nx[sel], nv[sel], s=130, facecolor="none",
                        edgecolor="#C44E52", linewidth=1.7, zorder=6)
-    ax.set_xticks([0, 1], ["cardioprotectants\n(16 drugs x 4 modules)",
-                           "negative controls\n(5 drugs x 4 modules)"], fontsize=10)
+    # exploratory random-drug background, computed at STRING 700 only
+    bgp = RES / "exploratory_random_background.json"
+    if bgp.exists():
+        bgj = json.loads(bgp.read_text(encoding="utf-8"))
+        bv = np.array([r[m] for r in bgj["per_drug"] for m in MODULES], float)
+        # freeze the y-range on the pre-specified data; the background has a
+        # long tail that would otherwise compress every other series
+        lo_y, hi_y = ax.get_ylim()
+        inside = bv[(bv >= lo_y) & (bv <= hi_y)]
+        n_out = int(bv.size - inside.size)
+        ax.scatter(np.full(inside.size, 2.0) + rng.normal(0, 0.055, inside.size),
+                   inside, s=13, alpha=0.4, color="#9AA5B1", edgecolor="none", zorder=1)
+        ax.plot([1.88, 2.12], [np.median(bv)] * 2, color="#3F4A54", lw=2.4, zorder=4)
+        ax.text(2.0, hi_y, f"median {np.median(bv):.2f}\n"
+                f"p = {bgj['permutation_two_sided_p']:.4f} vs protectants"
+                + (f"\n({n_out} of {bv.size} outside axis)" if n_out else ""),
+                ha="center", va="top", fontsize=8.2,
+                bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="#CCC", alpha=0.9))
+        ax.set_ylim(lo_y, hi_y)
+
+    ax.set_xticks([0, 1, 2], ["cardioprotectants\n(16 drugs x 4 modules)",
+                              "negative controls\n(5 drugs x 4 modules)",
+                              "random drug background\n(100 drugs x 4 modules,\n"
+                              "STRING 700, exploratory)"], fontsize=9.5)
     ax.set_ylabel("closest-distance proximity z", fontsize=10)
     ax.grid(axis="y", alpha=0.25)
     ax.axhline(0, color="#999", lw=0.8)
@@ -162,9 +184,10 @@ def fig3(arms):
     ax.legend(handles=handles, fontsize=8.5, loc="upper center", ncol=3,
               framealpha=0.95, bbox_to_anchor=(0.5, 1.0))
     ax.margins(y=0.16)
-    ax.set_title("Figure 3  Gate 4 specificity: negative-control drugs reach the "
-                 "protectant top quartile in every arm\n"
-                 "(replaces the leave-one-out plot; no primary statistic was computed)",
+    ax.set_title("Figure 3  Specificity. Negative controls reach the protectant top "
+                 "quartile in every arm, yet cardioprotectants as a class\n"
+                 "sit closer to the cardiotoxicity modules than a random drug "
+                 "background (exploratory)",
                  fontsize=11, loc="left")
     fig.savefig(FIG / "fig3_gate4_specificity.png", dpi=220, bbox_inches="tight")
     plt.close(fig)
