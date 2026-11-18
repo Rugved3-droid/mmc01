@@ -276,3 +276,49 @@ result files and the seal; all pass. It caught one real transcription error
 - Suggested reviewers with institutional e-mail addresses (optional but helpful).
 - Decide whether to deposit the repository publicly and add the link to the Data
   and Code Availability statements.
+
+---
+
+## 2026-11-17 — Run 4: public release and submission package
+
+**Authorship completed.** Rugved Parmar, Md Fahim, Adam Budzikowski, all SUNY
+Downstate Health Sciences University, Brooklyn, New York, USA. Corresponding
+author rugved.parmar@downstate.edu. ORCIDs are entered at the submission portal
+and are deliberately NOT placeheld in the manuscript; fabricating identifiers for
+named individuals is not acceptable. No reviewers suggested, by author decision.
+
+**Repository made public:** https://github.com/Rugved3-droid/mmc01
+
+Publishing required rewriting history: three cached shortest-path matrices
+(352 MB, 236 MB, 128 MB) exceeded GitHub's hard 100 MB per-file limit and the
+push would have been rejected. `git filter-branch` removed `data/dist` from all
+commits; `.git` fell from 194 MB to 5.7 MB. A full bundle backup was taken first
+at `D:\mmc01_backup_before_rewrite.bundle` (151 MB), so the rewrite is reversible.
+
+**Seal provenance survived the rewrite intact.** `sealed/outcomes.json` still
+appears in exactly one commit, `334709b`, with its original hash — the rewrite
+touched only later commits that contained `data/dist`. The claim in the paper's
+Data Availability statement therefore still verifies as written:
+`git log --oneline -- sealed/outcomes.json` returns a single commit.
+
+**Figure resolution corrected.** Figures were regenerated at 600 dpi; the journal
+requires 600 dpi for combination art and the previous 220 dpi output would have
+failed production.
+
+**Submission package** assembled at `paper/submission/`:
+Manuscript.docx, CoverLetter.docx, GraphicalAbstract.png, Fig1.png, Fig2.png,
+Fig3.png (4.9 MB total). Manuscript is 3,797 body words, 232-word abstract,
+6 keywords, 42 references, 3 tables, 3 figures plus the Graphical Abstract.
+`verify_numbers.py` passes all 49 checks including seal integrity.
+
+**Known residual:** commits before this run carry the author's Apple private-relay
+e-mail address in their git metadata, now public. It is a relay address rather
+than a personal one, and was left in place because changing it would alter commit
+`334709b` and break the seal-provenance claim.
+
+**Author items remaining before submission:**
+- ORCIDs for all three authors (entered in the portal).
+- Confirmation from Md Fahim and Adam Budzikowski that they approve submission
+  and that the Author Contributions statement accurately describes their roles;
+  the journal treats submission as implying this.
+- Confirmation of the AI-assistance declaration in Methods 2.8.

@@ -1,4 +1,4 @@
-"""MMC-01 section 10 figures.
+﻿"""MMC-01 section 10 figures.
 
 Fig 1  proximity heatmap: protectants x modules, degree-matched z (STRING 700),
        with the negative-control band shown beneath the same colour scale.
@@ -75,7 +75,7 @@ def fig1(arms):
                  "degree-matched null)", fontsize=9)
     fig.suptitle("Figure 1  Proximity landscape, STRING 700, 1000-permutation "
                  f"degree-matched null (seed {SEED})", fontsize=11.5, x=0.02, ha="left")
-    fig.savefig(FIG / "fig1_proximity_heatmap.png", dpi=220, bbox_inches="tight")
+    fig.savefig(FIG / "fig1_proximity_heatmap.png", dpi=600, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -122,7 +122,7 @@ def fig2(arms):
     fig.suptitle("Figure 2  Gate 3 positive control: dexrazoxane against the "
                  "anthracycline module, every pair plotted individually",
                  fontsize=11.5, x=0.01, ha="left")
-    fig.savefig(FIG / "fig2_gate3_positive_control.png", dpi=220, bbox_inches="tight")
+    fig.savefig(FIG / "fig2_gate3_positive_control.png", dpi=600, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -189,7 +189,7 @@ def fig3(arms):
                  "sit closer to the cardiotoxicity modules than a random drug "
                  "background (exploratory)",
                  fontsize=11, loc="left")
-    fig.savefig(FIG / "fig3_gate4_specificity.png", dpi=220, bbox_inches="tight")
+    fig.savefig(FIG / "fig3_gate4_specificity.png", dpi=600, bbox_inches="tight")
     plt.close(fig)
 
 
