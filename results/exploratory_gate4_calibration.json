@@ -1,0 +1,42 @@
+{
+ "EXPLORATORY": true,
+ "note": "rule 2.3: exploratory; cannot change the recorded Gate 4 verdict",
+ "arms": {
+  "400": {
+   "n_protectant_pairs": 64,
+   "n_control_pairs": 20,
+   "top_quartile_cutoff": -1.2986,
+   "controls_in_top_quartile": 1,
+   "expected_under_exchangeability": 5.0,
+   "protectant_median_z": -0.359,
+   "control_median_z": 0.5449,
+   "permutation_two_sided_rank_sum_p": 0.0027,
+   "binomial_two_sided_p_vs_25pct": 0.0382,
+   "direction": "controls FARTHER (more specific)"
+  },
+  "700": {
+   "n_protectant_pairs": 64,
+   "n_control_pairs": 20,
+   "top_quartile_cutoff": -1.6021,
+   "controls_in_top_quartile": 2,
+   "expected_under_exchangeability": 5.0,
+   "protectant_median_z": -0.7217,
+   "control_median_z": -0.0517,
+   "permutation_two_sided_rank_sum_p": 0.0168,
+   "binomial_two_sided_p_vs_25pct": 0.1931,
+   "direction": "controls FARTHER (more specific)"
+  },
+  "900": {
+   "n_protectant_pairs": 64,
+   "n_control_pairs": 20,
+   "top_quartile_cutoff": -1.1698,
+   "controls_in_top_quartile": 6,
+   "expected_under_exchangeability": 5.0,
+   "protectant_median_z": -0.56,
+   "control_median_z": -0.0575,
+   "permutation_two_sided_rank_sum_p": 0.1518,
+   "binomial_two_sided_p_vs_25pct": 0.608,
+   "direction": "controls FARTHER (more specific)"
+  }
+ }
+}
